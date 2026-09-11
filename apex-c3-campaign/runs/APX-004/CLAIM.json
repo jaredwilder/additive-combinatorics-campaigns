@@ -1,0 +1,21 @@
+{
+  "schema": "oracle.apex.claim.v1",
+  "attackId": "APX-004",
+  "statement": "Among normalized C3-free 13-sets of span at most 63, there are exactly 6 sets in 4 reflection orbits; exact span counts are {'60': 1, '61': 0, '62': 1, '63': 4}, every span-60 and span-62 birth is reflection-symmetric as recorded by {'60': 1, '61': 0, '62': 1, '63': 0}, and every set is at replacement distance at most 7 from the unique span-60 birth orbit.",
+  "exactSpanCounts": {
+    "60": 1,
+    "61": 0,
+    "62": 1,
+    "63": 4
+  },
+  "symmetricCounts": {
+    "60": 1,
+    "61": 0,
+    "62": 1,
+    "63": 0
+  },
+  "maximumReplacementDistance": 7,
+  "singleExchangeRepairBoundary": "The unique birth is isolated in the one-element-exchange graph, so a universal monotone single-exchange repair theorem is false even in this shell.",
+  "historicalNoveltyClaimed": false,
+  "claimHash": "sha256:2a0d12b08a32046768eba3d6ea4482b3f0324fc9a3ed6dfeace6711a49f11618"
+}

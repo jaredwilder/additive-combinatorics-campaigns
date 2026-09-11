@@ -1,0 +1,8 @@
+[
+  {
+    "strategy": "expose_compiler_wall",
+    "leanSource": "import C3Span50Defs\n\nnamespace C3Span50Kernel\n\ntheorem span50Candidate (x : BitVec 50) : selectedCount x >= 12#6 -> hasC3Violation x = true := by\n  intro h\n  bv_decide\n\nend C3Span50Kernel\n",
+    "expectedAxioms": [],
+    "rationale": "The environment is missing the C3Span50Defs module, making any proof attempt fail at the import stage. We provide the exact theorem statement and use bv_decide to expose this precise compiler wall."
+  }
+]

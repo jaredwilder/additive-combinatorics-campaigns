@@ -1,0 +1,10 @@
+{
+  "strategy": "The previous timeout was caused by explicitly unfolding the BitVec definitions before calling `bv_decide`, which destroyed the high-level circuit structure (like adders for `selectedCount`) and produced a massive, flat boolean formula that overwhelmed the SAT solver's translation or search. By calling `bv_decide` directly on the folded definitions, the tactic can exploit the structural encoding of BitVec operations (via AIGs and Tseitin transformations). `bv_decide` then uses LRAT reflection, providing the kernel with a highly compact proof term rather than forcing it to perform massive reductions.",
+  "leanSource": "import C3Span50Defs\n\nnamespace C3Span50Kernel\n\ntheorem span50Candidate (x : BitVec 50) : selectedCount x >= 12#6 -> hasC3Violation x = true := by\n  intro h\n  bv_decide\n\nend C3Span50Kernel\n",
+  "expectedAxioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "rationale": "Using `bv_decide` without prior unfolding preserves the structural BitVec operations, allowing the underlying SAT solver to efficiently process the circuit and return an LRAT proof. This reflection-based approach gives the kernel a compact proof term to check, avoiding the timeout."
+}

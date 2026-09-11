@@ -1,0 +1,30 @@
+{
+  "schema": "oracle.apex.compact-semantics.v1",
+  "attackId": "APX-031",
+  "source": "oracle/math/EG411Formal/C3Span50Compact.lean",
+  "domain": "four sorted distinct points in [1,50]",
+  "semanticSpecies": [
+    "p+r=2q",
+    "p=3r or r=3p",
+    "p=2q+3r or r=2q+3p"
+  ],
+  "generatedSupportCount": 15560,
+  "generatedSupportHash": "sha256:86cdaf64d41d8fa13b05603f82849d5f89a009ce92d4c97c0cd532f1c5eee74e",
+  "archivedExplicitSupportCount": 15560,
+  "archivedExplicitSupportHash": "sha256:86cdaf64d41d8fa13b05603f82849d5f89a009ce92d4c97c0cd532f1c5eee74e",
+  "semanticMatch": true,
+  "compactSourceSha256": "sha256:abae4b47b55c8c0f2a4621f650ebe93a061386b1137199ccc5b4f0fb8121059a",
+  "compactSourceBytes": 1735,
+  "forbiddenEscapeCounts": {
+    "sorry": 0,
+    "admit": 0,
+    "axiom": 0
+  },
+  "kernelStatus": "TIMEOUT",
+  "kernelExitCode": 124,
+  "kernelCeilingSeconds": 900,
+  "kernelObservedSeconds": 904,
+  "kernelStage": "finite-loop normalization plus bv_decide bit-blasting",
+  "nextRung": "precompiled SAT certificate with Lean-checked LRAT or equivalent compact checker",
+  "authority": "FORMALIZATION_WALL_NOT_A_THEOREM_CLOSURE"
+}

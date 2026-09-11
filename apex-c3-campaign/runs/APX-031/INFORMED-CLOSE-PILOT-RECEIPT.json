@@ -1,0 +1,75 @@
+{
+  "schema": "oracle.informed-close-pilot.receipt.v1",
+  "attackId": "APX-031",
+  "target": "Every arbitrary-distinct-ordered C3-free 12-set has span at least 50",
+  "closeScore": 0.95,
+  "result": "HONEST_FORMALIZATION_WALL_WITH_INDEPENDENTLY_VERIFIED_LRAT",
+  "theoremTruth": {
+    "supportCount": 15560,
+    "supportHash": "sha256:86cdaf64d41d8fa13b05603f82849d5f89a009ce92d4c97c0cd532f1c5eee74e",
+    "cnfVariables": 506,
+    "cnfClauses": 16446,
+    "solver": "standalone CaDiCaL 3.0.1",
+    "solverResult": "UNSAT",
+    "independentChecks": [
+      "CaDiCaL internal proof check",
+      "DRAT-trim backward verification",
+      "independent lrat-check verification of full LRAT",
+      "independent lrat-check verification of trimmed LRAT"
+    ]
+  },
+  "paidInference": {
+    "model": "google/gemini-3.1-pro-preview",
+    "requestedArchitectures": 8,
+    "candidateFiles": 5,
+    "proposalRejections": 3,
+    "costUsd": 0.634902,
+    "kernelClosures": 0,
+    "contaminatedImportFailuresExcludedFromMathematicalFailureCounts": true
+  },
+  "formalAttempts": [
+    {
+      "architecture": "legacy explicit Boolean definitions module",
+      "result": "operationally dominated",
+      "boundary": "definitions-only compilation exceeded 21 minutes before producing an olean"
+    },
+    {
+      "architecture": "compact three-species semantic scanner plus bv_decide",
+      "result": "timeout",
+      "seconds": 904,
+      "semanticDrift": false
+    },
+    {
+      "architecture": "full checked LRAT import into Lean",
+      "result": "timeout",
+      "seconds": 904,
+      "lratBytes": 105582813,
+      "lratSha256": "sha256:27b8fdb35936f54d9aead8875addef82c8ebed30d3367f7b64bf0b9f517ca0da"
+    },
+    {
+      "architecture": "backward-trimmed LRAT",
+      "result": "independently verified; Lean retry rejected as low-value under current envelope",
+      "coreOriginalClauses": 16296,
+      "coreOriginalClausesTotal": 16446,
+      "coreLemmas": 447254,
+      "generatedLemmas": 531562,
+      "lratBytes": 98504857,
+      "lratSha256": "sha256:6e8f39eb6b2ebc23bd797a7dbf0412066de0e0055d7a814e16e1067334dff4d3"
+    }
+  ],
+  "hardGates": {
+    "sorry": 0,
+    "admit": 0,
+    "newAxiom": 0,
+    "leanKernelExitZero": false,
+    "claimClosedInLean": false
+  },
+  "bankedNegativeSpace": [
+    "Never spend paid proof calls before the exact import/harness smoke test passes.",
+    "Separate mathematical counterexamples, compiler failures, and resource ceilings in the ladder state.",
+    "Score representation size and expected certificate volume before selecting bv_decide or LRAT import.",
+    "Emotional intensity may demand complete artifacts; it must never override kernel authority or evidence-selected architecture changes.",
+    "For this target, another uncompressed finite proof import is dominated; next formal attack must use a structural proof, smaller cardinality certificate, or materially compressed proof DAG."
+  ],
+  "authority": "NOT_LEAN_CLOSED"
+}

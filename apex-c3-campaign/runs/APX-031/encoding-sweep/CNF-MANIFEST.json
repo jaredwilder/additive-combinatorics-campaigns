@@ -1,0 +1,30 @@
+[
+  {
+    "encoding": "seqcounter",
+    "variables": 506,
+    "clauses": 16446,
+    "path": "state/apex-supersession-20260729/runs/APX-031/encoding-sweep/c3-span50-seqcounter.cnf",
+    "bytes": 297366
+  },
+  {
+    "encoding": "mtotalizer",
+    "variables": 254,
+    "clauses": 16224,
+    "path": "state/apex-supersession-20260729/runs/APX-031/encoding-sweep/c3-span50-mtotalizer.cnf",
+    "bytes": 295812
+  },
+  {
+    "encoding": "kmtotalizer",
+    "variables": 256,
+    "clauses": 16195,
+    "path": "state/apex-supersession-20260729/runs/APX-031/encoding-sweep/c3-span50-kmtotalizer.cnf",
+    "bytes": 295489
+  },
+  {
+    "encoding": "totalizer",
+    "variables": 336,
+    "clauses": 17072,
+    "path": "state/apex-supersession-20260729/runs/APX-031/encoding-sweep/c3-span50-totalizer.cnf",
+    "bytes": 308997
+  }
+]

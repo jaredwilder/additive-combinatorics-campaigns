@@ -1,0 +1,246 @@
+{
+  "schema": "oracle.apex.c3-span50-semantic-bridge.v1",
+  "cnf": "state/apex-supersession-20260729/runs/APX-031/sat-certificate/c3-span50.cnf",
+  "cnfSha256": "sha256:8c0bba7fc4ced900f4d59834b6aa8205246c6269ad917d277b11fdaed922bf22",
+  "supportClauses": 15560,
+  "cardinalityClauses": 886,
+  "segmentSize": 500,
+  "segments": [
+    {
+      "index": 0,
+      "start": 0,
+      "stop": 500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment000",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment000.lean"
+    },
+    {
+      "index": 1,
+      "start": 500,
+      "stop": 1000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment001",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment001.lean"
+    },
+    {
+      "index": 2,
+      "start": 1000,
+      "stop": 1500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment002",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment002.lean"
+    },
+    {
+      "index": 3,
+      "start": 1500,
+      "stop": 2000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment003",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment003.lean"
+    },
+    {
+      "index": 4,
+      "start": 2000,
+      "stop": 2500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment004",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment004.lean"
+    },
+    {
+      "index": 5,
+      "start": 2500,
+      "stop": 3000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment005",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment005.lean"
+    },
+    {
+      "index": 6,
+      "start": 3000,
+      "stop": 3500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment006",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment006.lean"
+    },
+    {
+      "index": 7,
+      "start": 3500,
+      "stop": 4000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment007",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment007.lean"
+    },
+    {
+      "index": 8,
+      "start": 4000,
+      "stop": 4500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment008",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment008.lean"
+    },
+    {
+      "index": 9,
+      "start": 4500,
+      "stop": 5000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment009",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment009.lean"
+    },
+    {
+      "index": 10,
+      "start": 5000,
+      "stop": 5500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment010",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment010.lean"
+    },
+    {
+      "index": 11,
+      "start": 5500,
+      "stop": 6000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment011",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment011.lean"
+    },
+    {
+      "index": 12,
+      "start": 6000,
+      "stop": 6500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment012",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment012.lean"
+    },
+    {
+      "index": 13,
+      "start": 6500,
+      "stop": 7000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment013",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment013.lean"
+    },
+    {
+      "index": 14,
+      "start": 7000,
+      "stop": 7500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment014",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment014.lean"
+    },
+    {
+      "index": 15,
+      "start": 7500,
+      "stop": 8000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment015",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment015.lean"
+    },
+    {
+      "index": 16,
+      "start": 8000,
+      "stop": 8500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment016",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment016.lean"
+    },
+    {
+      "index": 17,
+      "start": 8500,
+      "stop": 9000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment017",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment017.lean"
+    },
+    {
+      "index": 18,
+      "start": 9000,
+      "stop": 9500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment018",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment018.lean"
+    },
+    {
+      "index": 19,
+      "start": 9500,
+      "stop": 10000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment019",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment019.lean"
+    },
+    {
+      "index": 20,
+      "start": 10000,
+      "stop": 10500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment020",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment020.lean"
+    },
+    {
+      "index": 21,
+      "start": 10500,
+      "stop": 11000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment021",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment021.lean"
+    },
+    {
+      "index": 22,
+      "start": 11000,
+      "stop": 11500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment022",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment022.lean"
+    },
+    {
+      "index": 23,
+      "start": 11500,
+      "stop": 12000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment023",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment023.lean"
+    },
+    {
+      "index": 24,
+      "start": 12000,
+      "stop": 12500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment024",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment024.lean"
+    },
+    {
+      "index": 25,
+      "start": 12500,
+      "stop": 13000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment025",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment025.lean"
+    },
+    {
+      "index": 26,
+      "start": 13000,
+      "stop": 13500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment026",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment026.lean"
+    },
+    {
+      "index": 27,
+      "start": 13500,
+      "stop": 14000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment027",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment027.lean"
+    },
+    {
+      "index": 28,
+      "start": 14000,
+      "stop": 14500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment028",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment028.lean"
+    },
+    {
+      "index": 29,
+      "start": 14500,
+      "stop": 15000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment029",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment029.lean"
+    },
+    {
+      "index": 30,
+      "start": 15000,
+      "stop": 15500,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment030",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment030.lean"
+    },
+    {
+      "index": 31,
+      "start": 15500,
+      "stop": 16000,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment031",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment031.lean"
+    },
+    {
+      "index": 32,
+      "start": 16000,
+      "stop": 16446,
+      "module": "EG411Formal.C3Span50SemanticClauses.Segment032",
+      "path": "math/EG411Formal/EG411Formal/C3Span50SemanticClauses/Segment032.lean"
+    }
+  ],
+  "allModule": "EG411Formal.C3Span50SemanticAll",
+  "allPath": "math/EG411Formal/EG411Formal/C3Span50SemanticAll.lean",
+  "aggregateModule": "EG411Formal.C3Span50SemanticBridge",
+  "aggregatePath": "math/EG411Formal/EG411Formal/C3Span50SemanticBridge.lean",
+  "terminalCertificateModule": "EG411Formal.C3Span50Fine.Fine152"
+}

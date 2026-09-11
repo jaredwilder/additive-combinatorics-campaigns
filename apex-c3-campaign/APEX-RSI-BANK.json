@@ -1,0 +1,35 @@
+{
+  "schema": "oracle.apex.bank.v1",
+  "adjudicated": 3,
+  "theoremVictories": 2,
+  "registryTechniqueIds": [
+    "T-APEX-APX-001",
+    "T-APEX-APX-004",
+    "T-APEX-APX-031"
+  ],
+  "rapidFireTechniqueIds": [
+    "rft-d4a40857d0e3b1e3f4266d19",
+    "rft-1f18e8d89b19762111de842e"
+  ],
+  "negativeAtlasHash": "sha256:a3ed531c9b03b9ddd7c3f451d73703b340232e928ede9af1fd92728bdb4b845b",
+  "bankAudit": {
+    "schema": "oracle.rapid-fire.bank-audit.v1",
+    "counts": {
+      "results": 3356,
+      "techniques": 12,
+      "walls": 654,
+      "policy-performance": 6,
+      "thread-memory": 11
+    },
+    "active_counts": {
+      "results": 1312,
+      "techniques": 10
+    },
+    "events": 4042,
+    "event_head": "62c9aec1e9ab725d3318ad088152e38862bd0ac41c2a6c6f92f96960b8a847a3",
+    "errors": [],
+    "passed": true,
+    "receipt_hash": "f5484697985282ee47242304a59b12c84a2c1e1184a220f544721ec25b5341fa"
+  },
+  "bankHash": "sha256:33c516aa181d6723e7faba4450e50075e47bc4296534fbf4c47b3ba8c2e76957"
+}

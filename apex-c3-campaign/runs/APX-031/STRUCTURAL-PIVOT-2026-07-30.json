@@ -1,0 +1,36 @@
+{
+  "schema": "oracle.apex.formalization-pivot.v1",
+  "attackId": "APX-031",
+  "operatorStopAuthorized": true,
+  "stoppedProcess": {
+    "pid": 28348,
+    "elapsedMinutes": 31,
+    "privateMemoryGB": 22.4,
+    "effectiveCpuPercent": 10.7,
+    "pageFaultsPerSecondObservedRange": [100, 6100],
+    "reason": "Operator requested stop, inspection, and reassessment after confirmed paging thrash."
+  },
+  "verifiedCertificateComparison": [
+    {"encoding": "sequential-counter", "lratBytes": 105582813},
+    {"encoding": "sequential-counter-backward-trimmed", "lratBytes": 98504857},
+    {"encoding": "totalizer", "lratBytes": 112932056},
+    {"encoding": "k-modulo-totalizer", "lratBytes": 129131595},
+    {"encoding": "modulo-totalizer", "lratBytes": 149759722}
+  ],
+  "independentVerification": "Every compared LRAT passed CaDiCaL internal checking and independent lrat-check.",
+  "rejectedNextMove": "Another monolithic LRAT import or cardinality-encoding swap; all measured alternatives remain too large and some are strictly worse.",
+  "selectedNextMove": {
+    "composition": ["APX-003", "APX-031"],
+    "goal": "Extract the certified blocker species and sharp gap budget into a human-sized direct span theorem, then formalize that structural proof in Lean.",
+    "why": "This attacks the mathematical compression layer, removes the 98+ MB proof-term bottleneck, supplies the missing theorem-semantics bridge directly, and can produce reusable novel mathematics while closing the formal wall.",
+    "authoritySequence": [
+      "mine exact gap clauses from certified supports and UNSAT cores",
+      "solve and independently verify a rational charging or finite-state proof",
+      "compress to named structural lemmas",
+      "formalize those lemmas and the span theorem in Lean",
+      "kernel and axiom audit"
+    ]
+  },
+  "status": "REOPENED_ROUTED_TO_STRUCTURAL_COMPRESSION",
+  "leanClosed": false
+}

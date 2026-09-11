@@ -1,0 +1,120 @@
+{
+  "schema": "oracle.blade-championship.result.v1",
+  "blade": "geometric-carry-automaton",
+  "bladeHashBefore": "sha256:e308ea217a075213d9ace9212c6a014452ecbf773125523c9e3d64759d12b53c",
+  "bladeHashAfter": "sha256:e308ea217a075213d9ace9212c6a014452ecbf773125523c9e3d64759d12b53c",
+  "externalTheoryCalls": 0,
+  "manualRetuningAfterSeal": false,
+  "newTheorem": {
+    "statement": "For integers a,b!=0 and B>=2, distinct powers B^u,B^x,B^y,B^v satisfy a*B^u-b*B^x+b*B^y-a*B^v=0 iff a(B^u-B^v)=b(B^x-B^y). After gcd reduction a=g*a0,b=g*b0 this is equivalent to B^u-B^v=b0*t and B^x-B^y=a0*t for one nonzero integer t.",
+    "proof": "Rearrange and divide by g=gcd(a,b). Coprimality of a0,b0 implies a0 divides B^x-B^y and b0 divides B^u-B^v, producing t; substitution proves the converse. Distinctness is exactly the requirement that u,x,y,v are pairwise distinct.",
+    "decision": "The frozen carry automaton decides existence for every fixed (a,b,B) without exponent truncation."
+  },
+  "blindTransfer": {
+    "seal": {
+      "tag": "carry-blind-transfer",
+      "pool": [
+        {
+          "a": 2,
+          "b": 7,
+          "B": 2
+        },
+        {
+          "a": 2,
+          "b": 9,
+          "B": 3
+        },
+        {
+          "a": 3,
+          "b": 10,
+          "B": 2
+        }
+      ],
+      "rule": "sha256 modulo canonical pool length",
+      "sealHash": "sha256:2a713a625d50f2a3fc77986ff9497329dfb385878f095b60711efc513ac0decb",
+      "selectedIndex": 1,
+      "selected": {
+        "a": 2,
+        "b": 9,
+        "B": 3
+      }
+    },
+    "coefficients": [
+      2,
+      -9,
+      9,
+      -2
+    ],
+    "automaton": {
+      "exists": false,
+      "digitAssignments": [],
+      "exponentsByCoefficient": null,
+      "statesVisited": 11
+    },
+    "theoremConsequence": "the full geometric ray is relation-free"
+  },
+  "exactRejectionBoundary": {
+    "candidateClosedLawsRejected": [
+      "monotone in order",
+      "depends only on parity",
+      "equals the sufficient dominance base 2^r"
+    ],
+    "exactReplacement": "finite carry reachability is the symbolic arbitrary-order law",
+    "atlas": [
+      {
+        "order": 1,
+        "leastFreeBase": 2
+      },
+      {
+        "order": 2,
+        "leastFreeBase": 2
+      },
+      {
+        "order": 3,
+        "leastFreeBase": 2
+      },
+      {
+        "order": 4,
+        "leastFreeBase": 2
+      },
+      {
+        "order": 5,
+        "leastFreeBase": 3
+      },
+      {
+        "order": 6,
+        "leastFreeBase": 3
+      },
+      {
+        "order": 7,
+        "leastFreeBase": 2
+      },
+      {
+        "order": 8,
+        "leastFreeBase": 3
+      },
+      {
+        "order": 9,
+        "leastFreeBase": 4
+      },
+      {
+        "order": 10,
+        "leastFreeBase": 5
+      },
+      {
+        "order": 11,
+        "leastFreeBase": 4
+      },
+      {
+        "order": 12,
+        "leastFreeBase": 4
+      }
+    ]
+  },
+  "compressedExplanation": "Two-pair coefficients turn the power equation into equality of two scaled power differences. The carry graph is the complete exponent-free decision procedure; irregular least bases are arithmetic information, not search noise.",
+  "artifacts": {
+    "portfolioSeal": "sha256:2a713a625d50f2a3fc77986ff9497329dfb385878f095b60711efc513ac0decb"
+  },
+  "finishedAt": "2026-07-30T00:49:46.863757+00:00",
+  "resultHash": "sha256:a852b99ebce80cbd4bcb21004551e7005746dc4098d591b9ad6f21e75796dd25"
+}

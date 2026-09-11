@@ -1,0 +1,19 @@
+{
+  "schema": "oracle.blade-championship.lean-kill.v1",
+  "source": "oracle/state/blade-championship-20260729/formal/C3Span50Kernel.lean",
+  "sourceSha256": "sha256:7edcc0b3749a7cca557ec3a914de04a76537c8068886144b0ed83cc641143bee",
+  "supportCount": 15560,
+  "supportHash": "sha256:86cdaf64d41d8fa13b05603f82849d5f89a009ce92d4c97c0cd532f1c5eee74e",
+  "kernelExitCode": 124,
+  "kernelStdout": [],
+  "kernelStderr": [
+    "timeout after 900s"
+  ],
+  "sorryCount": 0,
+  "target": "Every >=12-point subset of [1,50] contains an arbitrary-distinct-ordered C3 support",
+  "targetProved": false,
+  "authority": "FORMALIZATION_WALL",
+  "method": "Lean bv_decide bit-vector reflection; no imported solver verdict",
+  "finishedAt": "2026-07-30T00:46:12.288018+00:00",
+  "receiptHash": "sha256:8952744b89b8fcd12b947ce85a7f9b9939f7a500500431329d722757b6988dcc"
+}

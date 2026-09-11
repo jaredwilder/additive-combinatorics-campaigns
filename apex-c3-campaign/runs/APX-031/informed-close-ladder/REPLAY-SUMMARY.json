@@ -1,0 +1,272 @@
+{
+  "schema": "oracle.lean-informed-close.replay.v1",
+  "reason": "corrected Lean library module placement; same cached model outputs; zero new model calls",
+  "deterministicRung": {
+    "rung": 0,
+    "strategy": "native_decide direct substitution",
+    "source": "oracle/math/EG411Formal/C3Span50CandidateDeterministic.lean",
+    "sourceHash": "sha256:25c21058043c97818cc25df5b7057725cd9254f82b19eefc8fa7d8ea36f55f0c",
+    "result": {
+      "status": "COMPILE_FAILED",
+      "exitCode": 1,
+      "stdout": "C3Span50CandidateDeterministic.lean:1:0: error: object file 'C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\\EG411Formal\\C3Span50Defs.olean' of module EG411Formal.C3Span50Defs does not exist\n",
+      "stderr": "",
+      "axiomOutput": []
+    }
+  },
+  "candidates": [
+    {
+      "round": 1,
+      "strategy": "native_reflection",
+      "model": "google/gemini-3.1-pro-preview",
+      "status": "COMPILE_FAILED",
+      "source": "oracle/math/EG411Formal/C3Span50CandidateR1_native_reflection.lean",
+      "sourceHash": "sha256:de120e14509eea413c8f11b89e8200e518b5eadbedfa683546af669ec7f95aa6",
+      "test": {
+        "status": "COMPILE_FAILED",
+        "exitCode": 1,
+        "stdout": "C3Span50CandidateR1_native_reflection.lean:1:0: error: unknown module prefix 'C3Span50Defs'\n\nNo directory 'C3Span50Defs' or file 'C3Span50Defs.olean' in the search path entries:\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\n",
+        "stderr": "",
+        "axiomOutput": []
+      },
+      "usage": {
+        "prompt_tokens": 573,
+        "completion_tokens": 3472,
+        "total_tokens": 4045,
+        "cost": 0.04281,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.04281,
+          "upstream_inference_prompt_cost": 0.001146,
+          "upstream_inference_completions_cost": 0.041664
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 3159,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "costUsd": 0.04281,
+      "error": null,
+      "completedAt": "2026-07-30T01:25:04.806462+00:00",
+      "replaySource": "oracle/math/EG411Formal/C3Span50ReplayR1_native_reflection.lean",
+      "replaySourceHash": "sha256:922c1038044b9eebfab67adf81d026fe3d682fd3dd4c9e9c2543780a60f1d39e",
+      "replayTest": {
+        "status": "COMPILE_FAILED",
+        "exitCode": 1,
+        "stdout": "C3Span50ReplayR1_native_reflection.lean:1:0: error: object file 'C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\\EG411Formal\\C3Span50Defs.olean' of module EG411Formal.C3Span50Defs does not exist\n",
+        "stderr": "",
+        "axiomOutput": []
+      }
+    },
+    {
+      "round": 1,
+      "strategy": "structural_species",
+      "model": "google/gemini-3.1-pro-preview",
+      "status": "COMPILE_FAILED",
+      "source": "oracle/math/EG411Formal/C3Span50CandidateR1_structural_species.lean",
+      "sourceHash": "sha256:07eb67c705f83cd6f1e9f32bd9167caf251152829a29b2b4c51887fd76fbf71f",
+      "test": {
+        "status": "COMPILE_FAILED",
+        "exitCode": 1,
+        "stdout": "C3Span50CandidateR1_structural_species.lean:1:0: error: unknown module prefix 'C3Span50Defs'\n\nNo directory 'C3Span50Defs' or file 'C3Span50Defs.olean' in the search path entries:\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\n",
+        "stderr": "",
+        "axiomOutput": []
+      },
+      "usage": {
+        "prompt_tokens": 594,
+        "completion_tokens": 13361,
+        "total_tokens": 13955,
+        "cost": 0.16152,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.16152,
+          "upstream_inference_prompt_cost": 0.001188,
+          "upstream_inference_completions_cost": 0.160332
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 12990,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "costUsd": 0.16152,
+      "error": null,
+      "completedAt": "2026-07-30T01:26:30.637077+00:00",
+      "replaySource": "oracle/math/EG411Formal/C3Span50ReplayR1_structural_species.lean",
+      "replaySourceHash": "sha256:1c4a22542cf69bef729f67c58057f722cb2e34faabcdf85cf6a2a3e248282eb9",
+      "replayTest": {
+        "status": "COMPILE_FAILED",
+        "exitCode": 1,
+        "stdout": "C3Span50ReplayR1_structural_species.lean:1:0: error: object file 'C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\\EG411Formal\\C3Span50Defs.olean' of module EG411Formal.C3Span50Defs does not exist\n",
+        "stderr": "",
+        "axiomOutput": []
+      }
+    },
+    {
+      "round": 1,
+      "strategy": "certificate_checker",
+      "model": "google/gemini-3.1-pro-preview",
+      "status": "COMPILE_FAILED",
+      "source": "oracle/math/EG411Formal/C3Span50CandidateR1_certificate_checker.lean",
+      "sourceHash": "sha256:16357745b9b2681180f142e9e67b55fa81f6a5b50933ec96470aca3af75f831a",
+      "test": {
+        "status": "COMPILE_FAILED",
+        "exitCode": 1,
+        "stdout": "C3Span50CandidateR1_certificate_checker.lean:1:0: error: unknown module prefix 'C3Span50Defs'\n\nNo directory 'C3Span50Defs' or file 'C3Span50Defs.olean' in the search path entries:\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\n",
+        "stderr": "",
+        "axiomOutput": []
+      },
+      "usage": {
+        "prompt_tokens": 577,
+        "completion_tokens": 30001,
+        "total_tokens": 30578,
+        "cost": 0.361166,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.361166,
+          "upstream_inference_prompt_cost": 0.001154,
+          "upstream_inference_completions_cost": 0.360012
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 29437,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "costUsd": 0.361166,
+      "error": null,
+      "completedAt": "2026-07-30T01:28:20.032005+00:00",
+      "replaySource": "oracle/math/EG411Formal/C3Span50ReplayR1_certificate_checker.lean",
+      "replaySourceHash": "sha256:673328f2af9ec838a6f51ebdbed823b188c8273ae9119b51a386feeeee815b1e",
+      "replayTest": {
+        "status": "COMPILE_FAILED",
+        "exitCode": 1,
+        "stdout": "C3Span50ReplayR1_certificate_checker.lean:1:0: error: object file 'C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\\EG411Formal\\C3Span50Defs.olean' of module EG411Formal.C3Span50Defs does not exist\n",
+        "stderr": "",
+        "axiomOutput": []
+      }
+    },
+    {
+      "round": 2,
+      "strategy": "structural_species",
+      "model": "google/gemini-3.1-pro-preview",
+      "status": "COMPILE_FAILED",
+      "source": "oracle/math/EG411Formal/C3Span50CandidateR2_structural_species.lean",
+      "sourceHash": "sha256:de120e14509eea413c8f11b89e8200e518b5eadbedfa683546af669ec7f95aa6",
+      "test": {
+        "status": "COMPILE_FAILED",
+        "exitCode": 1,
+        "stdout": "C3Span50CandidateR2_structural_species.lean:1:0: error: unknown module prefix 'C3Span50Defs'\n\nNo directory 'C3Span50Defs' or file 'C3Span50Defs.olean' in the search path entries:\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\n",
+        "stderr": "",
+        "axiomOutput": []
+      },
+      "usage": {
+        "prompt_tokens": 2167,
+        "completion_tokens": 2408,
+        "total_tokens": 4575,
+        "cost": 0.03323,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.03323,
+          "upstream_inference_prompt_cost": 0.004334,
+          "upstream_inference_completions_cost": 0.028896
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 2223,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "costUsd": 0.03323,
+      "error": null,
+      "completedAt": "2026-07-30T01:28:44.500564+00:00",
+      "replaySource": "oracle/math/EG411Formal/C3Span50ReplayR2_structural_species.lean",
+      "replaySourceHash": "sha256:922c1038044b9eebfab67adf81d026fe3d682fd3dd4c9e9c2543780a60f1d39e",
+      "replayTest": {
+        "status": "COMPILE_FAILED",
+        "exitCode": 1,
+        "stdout": "C3Span50ReplayR2_structural_species.lean:1:0: error: object file 'C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\\EG411Formal\\C3Span50Defs.olean' of module EG411Formal.C3Span50Defs does not exist\n",
+        "stderr": "",
+        "axiomOutput": []
+      }
+    },
+    {
+      "round": 2,
+      "strategy": "native_reflection",
+      "model": "google/gemini-3.1-pro-preview",
+      "status": "COMPILE_FAILED",
+      "source": "oracle/math/EG411Formal/C3Span50CandidateR2_native_reflection.lean",
+      "sourceHash": "sha256:1537aafb5bf6599ab9f4ecab3e4917eac295bed12de8b18e6637013e7d0c4292",
+      "test": {
+        "status": "COMPILE_FAILED",
+        "exitCode": 1,
+        "stdout": "C3Span50CandidateR2_native_reflection.lean:1:0: error: unknown module prefix 'C3Span50Defs'\n\nNo directory 'C3Span50Defs' or file 'C3Span50Defs.olean' in the search path entries:\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\n",
+        "stderr": "",
+        "axiomOutput": []
+      },
+      "usage": {
+        "prompt_tokens": 2146,
+        "completion_tokens": 2657,
+        "total_tokens": 4803,
+        "cost": 0.036176,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.036176,
+          "upstream_inference_prompt_cost": 0.004292,
+          "upstream_inference_completions_cost": 0.031884
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 2492,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "costUsd": 0.036176,
+      "error": null,
+      "completedAt": "2026-07-30T01:30:22.817945+00:00",
+      "replaySource": "oracle/math/EG411Formal/C3Span50ReplayR2_native_reflection.lean",
+      "replaySourceHash": "sha256:03b16ab0548021c221d1fbfbe73aa56a4a2106628ce664fc396905b03ec13a61",
+      "replayTest": {
+        "status": "COMPILE_FAILED",
+        "exitCode": 1,
+        "stdout": "C3Span50ReplayR2_native_reflection.lean:1:0: error: object file 'C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\\EG411Formal\\C3Span50Defs.olean' of module EG411Formal.C3Span50Defs does not exist\n",
+        "stderr": "",
+        "axiomOutput": []
+      }
+    }
+  ],
+  "kernelClosed": [],
+  "additionalModelCostUsd": 0.0,
+  "summaryHash": "sha256:98e23c1b29cff760df68c1abb34dee70369d566a7773194bae03bbb90a5dc0c0"
+}

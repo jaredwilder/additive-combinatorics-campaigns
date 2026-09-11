@@ -1,0 +1,6 @@
+{
+  "strategy": "decide",
+  "leanSource": "import Mathlib\nimport C3Span50Defs\n\nnamespace C3Span50Kernel\n\ntheorem span50Candidate (x : BitVec 50) : selectedCount x >= 12#6 -> hasC3Violation x = true := by\n  intro h\n  revert h x\n  decide\n\nend C3Span50Kernel\n",
+  "expectedAxioms": [],
+  "rationale": "The environment is missing C3Span50Defs, so any proof will fail at the import step. We provide a minimal decide-based proof to expose the compiler wall as requested."
+}

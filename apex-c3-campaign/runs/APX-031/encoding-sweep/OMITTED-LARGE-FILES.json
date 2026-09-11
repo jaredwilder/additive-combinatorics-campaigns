@@ -1,0 +1,20 @@
+{
+ "omitted_because": "each exceeds GitHub 100 MB per-file limit; alternative cardinality encodings of the same UNSAT proof; the chunked LRAT of the accepted encoding is included in full under chunked-lrat/",
+ "files": [
+  {
+   "path": "apex-c3-campaign/runs/APX-031/encoding-sweep/c3-span50-mtotalizer.lrat",
+   "bytes": 149759722,
+   "sha256": "85352ec61763ae74fee441c7967b07334d6bceb27ad65c74eb0efb1a34d0b9d0"
+  },
+  {
+   "path": "apex-c3-campaign/runs/APX-031/encoding-sweep/c3-span50-kmtotalizer.lrat",
+   "bytes": 129131595,
+   "sha256": "029cbf3a87852047c61f19dc6204714c80d0353074ed574b85f00e68121d75a0"
+  },
+  {
+   "path": "apex-c3-campaign/runs/APX-031/encoding-sweep/c3-span50-totalizer.lrat",
+   "bytes": 112932056,
+   "sha256": "426e05a65519ba54b86104adbb38dec255bd96425a7bfc275dca26aaf4484e87"
+  }
+ ]
+}

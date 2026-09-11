@@ -1,0 +1,374 @@
+{
+  "apex_expedition": {
+    "accepted": 7,
+    "checkpoint_hash": "b64e1420cc0c374b60d29548c66eba2eccf334bc504b33e952577a339c9dc494",
+    "event_count": 37,
+    "head": "fb8e0560bf215e45633464008f76d6fc1e302cac734de45465aa7cc698eeba79",
+    "state_contraction": 37
+  },
+  "campaign_decision": {
+    "banked_lean_theorems": 7,
+    "decision": "CAPABILITY_BOUNDARY",
+    "eliminated_operator_families": [
+      "pointwise quotient of four source colours into two output colours"
+    ],
+    "new_candidate_ids": [
+      "theory-b00000354e57512d93c4e4a9"
+    ],
+    "reason": "source-compiled operator contracted the residual and exposed the next exact boundary",
+    "required_acquisitions": [
+      {
+        "domain": "uniform hypergraph Ramsey lower bounds",
+        "effect": "four_to_two_colour_compression",
+        "must_supply": [
+          "monochromatic_clique_preserving_colour_compression",
+          "two_colour_output",
+          "double_exponential_scale_retention",
+          "independently_checkable_parameter_map"
+        ],
+        "object": "machine-checkable theorem/operator artifact"
+      }
+    ],
+    "surviving_frontier": [
+      "nonlocal recolouring using configuration context, or a native two-colour construction"
+    ],
+    "target_closed": false
+  },
+  "final_blockers": [],
+  "final_deferred": 0,
+  "final_state_event_id": "75b25e471abcc8d7",
+  "initial": {
+    "attempted": true,
+    "authority": "integration_tested",
+    "canonical_artifact": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\data_engine\\raw\\objects\\sha256\\58\\5d\\585d7873b34e66ef9e98c05ec23607388876faafa8d99d99905d35d1c15e4052",
+    "canonical_input": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\data_engine\\raw\\objects\\sha256\\20\\82\\2082ea85e692111d20bcb8833d29add92220e797d3970333abdc9000efc462a9",
+    "evidence_event_id": "c747e0eb376195ce",
+    "notes": [
+      "world perturbation robustness: True",
+      "knowledge compounder recovered 17 prior artifacts",
+      "ProgramOS performed an evidence-driven representation pivot",
+      "no finite experiment was laundered into an unrestricted theorem"
+    ],
+    "open_thread_event_id": "d348338054e3a44f",
+    "status": "OPEN_WITH_RESIDUE",
+    "target": "gap-b0343846707efe2c421efc72"
+  },
+  "query": "Erdos problem 564 continued campaign beta. Let R_3(n) be minimal so every 2-coloured 3-uniform hypergraph on m vertices has a monochromatic K_n. Is there a constant c>0 with R_3(n)>2^(2^(c n)) for all n?",
+  "round_count": 4,
+  "rounds": [
+    {
+      "apex_expedition": {
+        "accepted": 10,
+        "checkpoint_hash": "5b12e3be9e138649129cf23f06793d8a886ce81639f0927ad9e4c74acf39ed2f",
+        "event_count": 10,
+        "head": "f65041c9136056908d76082b3e8dd32ece0e56d250523b2d584c2370c209fda9",
+        "state_contraction": 10
+      },
+      "artifact": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\data_engine\\raw\\objects\\sha256\\a6\\9b\\a69b881d2ff30e11838c84d7216c48fd2d682e5ec9a1d183db2e7cf30e449808",
+      "blocker": null,
+      "blockers": [],
+      "campaign_id": "campaign-bb4ecf4c4be069cbfe8d7b53",
+      "checkpoint_hash": "9571336129fa1466d5d047b301ef9e4883aba499c64d07f8b9c9ba12e3604320",
+      "completed": [
+        {
+          "event_id": "42f1f11787236c5e",
+          "kind": "world_fidelity",
+          "obligation_id": "obl-e220de7e4127e13c0fba462b"
+        },
+        {
+          "event_id": "b8f20d19556ddf14",
+          "kind": "campaign_revision",
+          "obligation_id": "obl-0c86eb0eb94aaa033f784933"
+        },
+        {
+          "event_id": "64e003a9bbcf2534",
+          "kind": "conflict_audit",
+          "obligation_id": "obl-f9dff8616c825ea89d19b8b8"
+        },
+        {
+          "event_id": "5e4f138d3b9dd9fd",
+          "kind": "target_normalization",
+          "obligation_id": "obl-3bcde1795d2f117d31f7b552"
+        },
+        {
+          "event_id": "33cd8954c3d8b1aa",
+          "kind": "representation_build",
+          "obligation_id": "obl-cd2be868a31db2102a0d7bff"
+        },
+        {
+          "event_id": "0e65ff55d5eeca3b",
+          "kind": "representation_build",
+          "obligation_id": "obl-18def94358e313ca55895727"
+        },
+        {
+          "event_id": "9b6f18ef17bdf92f",
+          "kind": "representation_build",
+          "obligation_id": "obl-5fc24e5eec08a56c92319ad1"
+        }
+      ],
+      "deferred": 27,
+      "memory_event_id": "822780fb27314162",
+      "refuted": [
+        {
+          "event_id": "4fcfe1a7842b3a35",
+          "kind": "representation_build",
+          "obligation_id": "obl-f2ebd3abf360e6ff05ce7504",
+          "reason": "representation has no executable admission contract"
+        },
+        {
+          "event_id": "ecb867c14f65de7a",
+          "kind": "concept_semantics",
+          "obligation_id": "obl-4786e6299d5d6aa430f62da7",
+          "reason": {
+            "concept_id": "concept-a514c3a58294bb302f196cef",
+            "semantic_tests": 0
+          }
+        },
+        {
+          "event_id": "112f8541a6cd5069",
+          "kind": "concept_semantics",
+          "obligation_id": "obl-99fd23fe4951733a255e9f26",
+          "reason": {
+            "concept_id": "concept-b48fee65151717e310648a06",
+            "semantic_tests": 0
+          }
+        }
+      ],
+      "round": 1,
+      "source_evidence_event_id": "c747e0eb376195ce",
+      "state_event_id": "f28741d42c2c0b09"
+    },
+    {
+      "apex_expedition": {
+        "accepted": 10,
+        "checkpoint_hash": "1f8de5ecbaa0fc69297940ee45cb8699b16a96ce250acbbaee7519c3b8da1bff",
+        "event_count": 20,
+        "head": "880b733fb286085d71b464b893d1cca330de9c6533e14efa4ed0348111b671d4",
+        "state_contraction": 20
+      },
+      "artifact": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\data_engine\\raw\\objects\\sha256\\ee\\5a\\ee5a1a4863539bf0cb7cfb3965ce76d3fc8a5fb86022f8afe0cf0adac899ef65",
+      "blocker": null,
+      "blockers": [],
+      "campaign_id": "campaign-bb4ecf4c4be069cbfe8d7b53",
+      "checkpoint_hash": "f52034fb9f39e1fab8ef1ebf3b2fe15e3c082d3bab37798a6813b8de10795500",
+      "completed": [
+        {
+          "event_id": "ae81bc0bf5a2c6a7",
+          "kind": "translation_check",
+          "obligation_id": "obl-cb841f1334cb98ef9679e33e"
+        },
+        {
+          "event_id": "ffc80899ac0d87de",
+          "kind": "translation_check",
+          "obligation_id": "obl-6e5a4fc79feb35d94774058e"
+        },
+        {
+          "event_id": "1ed6e80b1771bebc",
+          "kind": "translation_check",
+          "obligation_id": "obl-9a46fe974b1eb7a0a8f61ce7"
+        },
+        {
+          "event_id": "c296021605efc2d9",
+          "kind": "representation_probe",
+          "obligation_id": "obl-ce60df560b1824f7083f99a8"
+        },
+        {
+          "event_id": "bc6b3da32758a391",
+          "kind": "representation_probe",
+          "obligation_id": "obl-db06df339ccfe8066dc4dbd1"
+        },
+        {
+          "event_id": "dc58126388a974b9",
+          "kind": "representation_probe",
+          "obligation_id": "obl-f81061c84420ad599efbbbff"
+        }
+      ],
+      "deferred": 17,
+      "memory_event_id": "0d06c69d5689f5d0",
+      "refuted": [
+        {
+          "event_id": "088d6c053cc8283f",
+          "kind": "translation_check",
+          "obligation_id": "obl-000df2e5644fcf66708ea078",
+          "reason": {
+            "roundtrip_contract": null,
+            "semantic_roundtrip_declared": false
+          }
+        },
+        {
+          "event_id": "13cb98768e94e06f",
+          "kind": "concept_trigger",
+          "obligation_id": "obl-9233338cbc5f7d3ee0f2b29a",
+          "reason": {
+            "trigger_receipt": null
+          }
+        },
+        {
+          "event_id": "9ac505c698109f6a",
+          "kind": "concept_trigger",
+          "obligation_id": "obl-01fc8458846a0c5182721323",
+          "reason": {
+            "trigger_receipt": null
+          }
+        },
+        {
+          "event_id": "7965f6dcdc9d7875",
+          "kind": "concept_semantics",
+          "obligation_id": "obl-aed882cf167996961ba5585c",
+          "reason": {
+            "concept_id": "concept-d72c0867d0e05ca4b2b660b0",
+            "semantic_tests": 0
+          }
+        }
+      ],
+      "round": 2,
+      "source_evidence_event_id": "f28741d42c2c0b09",
+      "state_event_id": "0ea805ea2f3290d9"
+    },
+    {
+      "apex_expedition": {
+        "accepted": 10,
+        "checkpoint_hash": "a91c20f5956d24b1df96d5556bb104765e47c0d74f36cadb36f5a7093953a705",
+        "event_count": 30,
+        "head": "f7bd2d805a31386265b2ac278ed04a9505c36bb0d50974f619d54cefa9551527",
+        "state_contraction": 30
+      },
+      "artifact": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\data_engine\\raw\\objects\\sha256\\64\\b5\\64b59d5b95b00cfdcc83e35cc75e2c7522932c198a2f2234849853002b9dc726",
+      "blocker": null,
+      "blockers": [],
+      "campaign_id": "campaign-bb4ecf4c4be069cbfe8d7b53",
+      "checkpoint_hash": "5a4f8a724dfbcb04ced4512b5e98ab83f21f6cb73989c408e85e7f0fc5b7055b",
+      "completed": [
+        {
+          "event_id": "2c73a61166d3b10e",
+          "kind": "theory_synthesis",
+          "obligation_id": "obl-368c01bbc3a896b55741f4af"
+        },
+        {
+          "event_id": "cc62ea39f699b386",
+          "kind": "counterexample_search",
+          "obligation_id": "obl-89378088afe57c65b195165a"
+        },
+        {
+          "event_id": "61adc4afdfb0394b",
+          "kind": "proof_compile",
+          "obligation_id": "obl-0b069bc178485a6e4bed5a76"
+        },
+        {
+          "event_id": "a9cb07318efee753",
+          "kind": "independent_verification",
+          "obligation_id": "obl-bcfe42a85fdfd7d9fb21e591"
+        },
+        {
+          "event_id": "997f72cf8f09163d",
+          "kind": "hostile_mutation",
+          "obligation_id": "obl-d809c55e4a2737b1a291e632"
+        }
+      ],
+      "deferred": 7,
+      "memory_event_id": "16522b13f12c34be",
+      "refuted": [
+        {
+          "event_id": "c4eedc258d23f099",
+          "kind": "representation_probe",
+          "obligation_id": "obl-e3a06eac5d0374d7d0f58123",
+          "reason": "probe representation does not preserve the uniform-hypergraph relation"
+        },
+        {
+          "event_id": "3138fee0acd5dbb3",
+          "kind": "concept_transfer",
+          "obligation_id": "obl-63ffec5304ab0ad388b644ea",
+          "reason": {
+            "transfer_receipts": 0
+          }
+        },
+        {
+          "event_id": "57e30d6805843135",
+          "kind": "concept_transfer",
+          "obligation_id": "obl-399eb5c31860984d124f73af",
+          "reason": {
+            "transfer_receipts": 0
+          }
+        },
+        {
+          "event_id": "fb03821b6c7bb7d2",
+          "kind": "concept_trigger",
+          "obligation_id": "obl-a23a9fb808592ecb2334063c",
+          "reason": {
+            "trigger_receipt": null
+          }
+        },
+        {
+          "event_id": "890f1ca549101de0",
+          "kind": "concept_transfer",
+          "obligation_id": "obl-7d68c7b594300a52e8a83bae",
+          "reason": {
+            "transfer_receipts": 0
+          }
+        }
+      ],
+      "round": 3,
+      "source_evidence_event_id": "0ea805ea2f3290d9",
+      "state_event_id": "2db40a976005b062"
+    },
+    {
+      "apex_expedition": {
+        "accepted": 7,
+        "checkpoint_hash": "b64e1420cc0c374b60d29548c66eba2eccf334bc504b33e952577a339c9dc494",
+        "event_count": 37,
+        "head": "fb8e0560bf215e45633464008f76d6fc1e302cac734de45465aa7cc698eeba79",
+        "state_contraction": 37
+      },
+      "artifact": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\data_engine\\raw\\objects\\sha256\\99\\1c\\991c2a0dff5f66ed6ef2e5cae4bd9412402052ea68ace3c62584c55152f63f76",
+      "blocker": null,
+      "blockers": [],
+      "campaign_id": "campaign-bb4ecf4c4be069cbfe8d7b53",
+      "checkpoint_hash": "390e8acb36bf22fd461d7cf30861e86acbaac7c800463f0ed4eb2bebcdd4a166",
+      "completed": [
+        {
+          "event_id": "4a0682bba919434b",
+          "kind": "cross_problem_transfer",
+          "obligation_id": "obl-c1906a3e8fa1d24c99b120e2"
+        },
+        {
+          "event_id": "b7e99470a9e926ec",
+          "kind": "novelty_audit",
+          "obligation_id": "obl-e7e03fc7c2a1d35dc894298e"
+        },
+        {
+          "event_id": "92506415a0abfd82",
+          "kind": "closure_decision",
+          "obligation_id": "obl-aadbe5fda1053c792d29f325"
+        },
+        {
+          "event_id": "d9976574a10edff6",
+          "kind": "lemma_crystallization",
+          "obligation_id": "obl-fa40b72f5e642a490be959f6"
+        },
+        {
+          "event_id": "b2af0a25965dd2a8",
+          "kind": "residual_compile",
+          "obligation_id": "obl-59467885a769444c43ef21f4"
+        },
+        {
+          "event_id": "3e147eafccc3b0fd",
+          "kind": "operator_composition",
+          "obligation_id": "obl-58959974bbffc7698c681e5f"
+        },
+        {
+          "event_id": "1d923085e0a9300b",
+          "kind": "frontier_regeneration",
+          "obligation_id": "obl-abccb3e9069ed9d810625516"
+        }
+      ],
+      "deferred": 0,
+      "memory_event_id": "b6627262ce5c4a49",
+      "refuted": [],
+      "round": 4,
+      "source_evidence_event_id": "2db40a976005b062",
+      "state_event_id": "75b25e471abcc8d7"
+    }
+  ],
+  "shape": "frontier_math",
+  "termination": "obligation_frontier_exhausted"
+}

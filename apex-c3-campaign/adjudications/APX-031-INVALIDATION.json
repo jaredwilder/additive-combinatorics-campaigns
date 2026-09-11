@@ -1,0 +1,10 @@
+{
+  "schema": "oracle.apex.adjudication-invalidation.v1",
+  "attackId": "APX-031",
+  "invalidatedReceiptHash": "sha256:4c58e70bbcde8f3bf2f86b0d8de2c5e91dc47d38c626faf13bb547e9b3eaa34d",
+  "reason": "The agent terminated an activated close campaign based on predicted low value and predicted resource risk while executable routes and a responsive Lean process remained. Neither condition is a valid terminal boundary.",
+  "preservedGold": "All measured compiler walls, exact semantic hashes, verified SAT/LRAT certificates, and failed architectures remain reusable negative-space evidence.",
+  "newStatus": "REOPENED_ACTIVE_NO_AGENT_STOP",
+  "terminalCountsReversed": true,
+  "theoremAuthorityChanged": false
+}

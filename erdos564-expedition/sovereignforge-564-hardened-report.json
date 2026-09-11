@@ -1,0 +1,266 @@
+{
+  "apex_expedition": {
+    "accepted": 33,
+    "checkpoint_hash": "a6c3827e7f72b6ff2a8bc8e074ec122b0c08fbe53c083db623878bab6ca3bff7",
+    "event_count": 33,
+    "head": "86e1683a646c8dfaedd80108eee2c1f46c42ffa350deaa602d10a800bb4fd68f",
+    "state_contraction": 33
+  },
+  "campaign_decision": {
+    "candidate_ids": [
+      "theory-df19cdc8adf125500e022e6b"
+    ],
+    "decision": "REDUCED",
+    "reason": "typed theory candidates do not reach the requested target",
+    "target_closed": false
+  },
+  "final_blockers": [],
+  "final_deferred": 0,
+  "final_state_event_id": "8b82dbcade37f43a",
+  "initial": {
+    "attempted": true,
+    "authority": "integration_tested",
+    "canonical_artifact": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\data_engine\\raw\\objects\\sha256\\1f\\a8\\1fa8b570f47e9f20157167e5ed2888ea3cdf915259bd3653a6bfbb5079e21abc",
+    "canonical_input": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\data_engine\\raw\\objects\\sha256\\34\\a7\\34a7a9c268f4cbdf6e7d6e86007e4aaa47ff3d0feaf22b7011609698180b6700",
+    "evidence_event_id": "6fd70607b8aaf14d",
+    "notes": [
+      "world perturbation robustness: True",
+      "knowledge compounder recovered 17 prior artifacts",
+      "ProgramOS performed an evidence-driven representation pivot",
+      "no finite experiment was laundered into an unrestricted theorem"
+    ],
+    "open_thread_event_id": "ab91ef3eecac21e0",
+    "status": "OPEN_WITH_RESIDUE",
+    "target": "gap-3294663c952ecfbac54d91bb"
+  },
+  "query": "Let R_3(n) be minimal so every 2-coloured 3-uniform hypergraph on m vertices has a monochromatic K_n. Is there a constant c>0 with R_3(n)>2^(2^(c n)) for all n?",
+  "round_count": 1,
+  "rounds": [
+    {
+      "apex_expedition": {
+        "accepted": 33,
+        "checkpoint_hash": "a6c3827e7f72b6ff2a8bc8e074ec122b0c08fbe53c083db623878bab6ca3bff7",
+        "event_count": 33,
+        "head": "86e1683a646c8dfaedd80108eee2c1f46c42ffa350deaa602d10a800bb4fd68f",
+        "state_contraction": 33
+      },
+      "artifact": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\data_engine\\raw\\objects\\sha256\\bf\\50\\bf50282c32b69852c328bc4883d07b34f1d7949d014dbb835472dc18450da793",
+      "blocker": null,
+      "blockers": [],
+      "campaign_id": "campaign-ee5ea134a0409647cdde6a91",
+      "checkpoint_hash": "1c613f31c0659459f3e0d802ec598e23282ddbc25c95b2d6cf5286a2b2b08b10",
+      "completed": [
+        {
+          "event_id": "34fdaa6983e9d3e1",
+          "kind": "world_fidelity",
+          "obligation_id": "obl-308d55537c2f1754d2477bff"
+        },
+        {
+          "event_id": "15dbed122d89cd14",
+          "kind": "campaign_revision",
+          "obligation_id": "obl-bac52cc831c2b943163099fe"
+        },
+        {
+          "event_id": "5ab122593e3f1a20",
+          "kind": "conflict_audit",
+          "obligation_id": "obl-4a4d5e4e53ebe5cc8048e64f"
+        },
+        {
+          "event_id": "8f62a00c5fa1955d",
+          "kind": "target_normalization",
+          "obligation_id": "obl-33ff1fad89516fd230a64950"
+        },
+        {
+          "event_id": "6510cd455352c4e8",
+          "kind": "representation_build",
+          "obligation_id": "obl-f03d196217882fe5fd08dbbc"
+        },
+        {
+          "event_id": "b36d5ca9b957b596",
+          "kind": "representation_build",
+          "obligation_id": "obl-3f600e556be71fcf18e950e9"
+        },
+        {
+          "event_id": "e253fc23cb60d9aa",
+          "kind": "representation_build",
+          "obligation_id": "obl-975c83a07f787f5e1fca2114"
+        },
+        {
+          "event_id": "b511aba410191251",
+          "kind": "translation_check",
+          "obligation_id": "obl-608f141b62c81eaf90635fba"
+        },
+        {
+          "event_id": "dbbd74cc1d38a940",
+          "kind": "translation_check",
+          "obligation_id": "obl-5f7de86b61b515daed470a80"
+        },
+        {
+          "event_id": "a6bf26feb120d08b",
+          "kind": "translation_check",
+          "obligation_id": "obl-e6eb2646f64920fe988648a5"
+        },
+        {
+          "event_id": "6e5c8c27552aa22c",
+          "kind": "representation_probe",
+          "obligation_id": "obl-86e57f17f38961d7317d6c04"
+        },
+        {
+          "event_id": "69007fc4a787184c",
+          "kind": "representation_probe",
+          "obligation_id": "obl-0844ad1ee2f14c41d924d592"
+        },
+        {
+          "event_id": "13e6f943b6ef917a",
+          "kind": "representation_probe",
+          "obligation_id": "obl-0f27e055c3c8a264093ec385"
+        },
+        {
+          "event_id": "e112234cd9d9a3c8",
+          "kind": "theory_synthesis",
+          "obligation_id": "obl-dedc699a555570aa40730591"
+        },
+        {
+          "event_id": "c839a75c27461bae",
+          "kind": "counterexample_search",
+          "obligation_id": "obl-1bc81139103ded062881da68"
+        },
+        {
+          "event_id": "d808c63a67fb5c21",
+          "kind": "proof_compile",
+          "obligation_id": "obl-36f8c7b41d7440195620a575"
+        },
+        {
+          "event_id": "fc8eb8182e77bbc4",
+          "kind": "independent_verification",
+          "obligation_id": "obl-c8ae6b0a8742d602fbe47f41"
+        },
+        {
+          "event_id": "55bcdc04f72af0be",
+          "kind": "hostile_mutation",
+          "obligation_id": "obl-6c0cc7a66717710fe61e1728"
+        },
+        {
+          "event_id": "fbc3811908ac6019",
+          "kind": "cross_problem_transfer",
+          "obligation_id": "obl-eda2eabbe1f5be6f201d7f87"
+        },
+        {
+          "event_id": "618327b407f02cd6",
+          "kind": "novelty_audit",
+          "obligation_id": "obl-2e2b4ddfcecb7c5a2bad9e3a"
+        },
+        {
+          "event_id": "a813e6dee9162a78",
+          "kind": "closure_decision",
+          "obligation_id": "obl-23da911ffa75f66c2ca51b3c"
+        }
+      ],
+      "deferred": 0,
+      "memory_event_id": "5fa4c8c6694e2cb9",
+      "refuted": [
+        {
+          "event_id": "8e39fb7aa620d9db",
+          "kind": "representation_build",
+          "obligation_id": "obl-5454b5ab679c5cbc2c6c264e",
+          "reason": "representation has no executable admission contract"
+        },
+        {
+          "event_id": "3622850379f92703",
+          "kind": "concept_semantics",
+          "obligation_id": "obl-1aa9eea0e6eebc306cc62c40",
+          "reason": {
+            "concept_id": "concept-8972386bebe4487a805691e9",
+            "semantic_tests": 0
+          }
+        },
+        {
+          "event_id": "9bd08bad7d7739ea",
+          "kind": "concept_semantics",
+          "obligation_id": "obl-ef576ab90aa91651370326f6",
+          "reason": {
+            "concept_id": "concept-f2d7de68a7f7db9691935a28",
+            "semantic_tests": 0
+          }
+        },
+        {
+          "event_id": "2db5726c6f3b36c7",
+          "kind": "concept_semantics",
+          "obligation_id": "obl-67379d53d0337a106d7a3e31",
+          "reason": {
+            "concept_id": "concept-213f025bc358808cd0a29df9",
+            "semantic_tests": 0
+          }
+        },
+        {
+          "event_id": "32825a02df3bd2aa",
+          "kind": "translation_check",
+          "obligation_id": "obl-615da9a35387c5c84a88f315",
+          "reason": {
+            "roundtrip_contract": null,
+            "semantic_roundtrip_declared": false
+          }
+        },
+        {
+          "event_id": "33a78c20973a7598",
+          "kind": "concept_trigger",
+          "obligation_id": "obl-b480235a5eb47b34a1515733",
+          "reason": {
+            "trigger_receipt": null
+          }
+        },
+        {
+          "event_id": "c7161aaa34ca1deb",
+          "kind": "concept_trigger",
+          "obligation_id": "obl-175ef4ccd12ffce7a950523c",
+          "reason": {
+            "trigger_receipt": null
+          }
+        },
+        {
+          "event_id": "747ef673108b823c",
+          "kind": "concept_trigger",
+          "obligation_id": "obl-cb758d4826e3d30ffa26e2a9",
+          "reason": {
+            "trigger_receipt": null
+          }
+        },
+        {
+          "event_id": "355f8af81dd25e23",
+          "kind": "representation_probe",
+          "obligation_id": "obl-5de4ee9f8014e38238a3a06f",
+          "reason": "probe representation does not preserve the uniform-hypergraph relation"
+        },
+        {
+          "event_id": "5fd4eb3cebe496b5",
+          "kind": "concept_transfer",
+          "obligation_id": "obl-48ffa666a35b877c75d4ddf9",
+          "reason": {
+            "transfer_receipts": 0
+          }
+        },
+        {
+          "event_id": "fc41ab5b8326e8e3",
+          "kind": "concept_transfer",
+          "obligation_id": "obl-410e1298da3c7cfea75fe3a9",
+          "reason": {
+            "transfer_receipts": 0
+          }
+        },
+        {
+          "event_id": "66eecd61c07b3d05",
+          "kind": "concept_transfer",
+          "obligation_id": "obl-7f1905dfad351d304d2889fc",
+          "reason": {
+            "transfer_receipts": 0
+          }
+        }
+      ],
+      "round": 1,
+      "source_evidence_event_id": "6fd70607b8aaf14d",
+      "state_event_id": "8b82dbcade37f43a"
+    }
+  ],
+  "shape": "frontier_math",
+  "termination": "obligation_frontier_exhausted"
+}

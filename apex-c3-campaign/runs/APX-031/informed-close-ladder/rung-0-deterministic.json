@@ -1,0 +1,13 @@
+{
+  "rung": 0,
+  "strategy": "native_decide direct substitution",
+  "source": "oracle/math/EG411Formal/C3Span50CandidateDeterministic.lean",
+  "sourceHash": "sha256:25c21058043c97818cc25df5b7057725cd9254f82b19eefc8fa7d8ea36f55f0c",
+  "result": {
+    "status": "COMPILE_FAILED",
+    "exitCode": 1,
+    "stdout": "C3Span50CandidateDeterministic.lean:1:0: error: object file 'C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\\EG411Formal\\C3Span50Defs.olean' of module EG411Formal.C3Span50Defs does not exist\n",
+    "stderr": "",
+    "axiomOutput": []
+  }
+}

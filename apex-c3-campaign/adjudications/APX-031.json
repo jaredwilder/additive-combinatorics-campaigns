@@ -1,0 +1,22 @@
+{
+  "schema": "oracle.apex.adjudication.v1",
+  "contractHash": "sha256:cf51f8a7ada393c80e0389c334fe694d100b6a413f09face549394129d276b13",
+  "baselineHash": "sha256:192e44fa558546996c67a4e8222e73536d93b53a05e961490714e63213d2db18",
+  "attackHash": "sha256:bfa0daa68ab5add51526b90a5e93e1a811e9a3a0d88b602b09225b57f991f520",
+  "attackId": "APX-031",
+  "classification": "STRICT_ADVANCE",
+  "claim": "Every 12 selected points in [0,49] contain an arbitrary-order C3 support; Lean kernel checked.",
+  "baselineComparison": "The 900-second monolithic reconstruction wall is superseded by dependency-preserving resumable LRAT chunks and a proved semantic-to-CNF bridge.",
+  "advanceBar": "Close the exact span-50 theorem in the Lean kernel via compression or checked LRAT; repeating the 900-second bv_decide wall is replication only.",
+  "evidencePaths": [
+    "state/apex-supersession-20260729/runs/APX-031/INFORMED-CLOSE-PILOT-RECEIPT.json",
+    "state/apex-supersession-20260729/runs/APX-031/informed-close-ladder/COMPACT-SEMANTICS-RECEIPT.json",
+    "state/apex-supersession-20260729/runs/APX-031/sat-certificate/SAT-RECEIPT.json",
+    "state/apex-supersession-20260729/runs/APX-031/LEAN-CLOSURE-RECEIPT.json"
+  ],
+  "supersessionProof": "C3Span50Certificate.unsat kernel-checks all 447,254 retained LRAT additions. C3Span50Semantic.span50 proves the exact 12-of-50 human theorem through an exact 16,446-clause semantic bridge.",
+  "exactBoundary": "The exact finite theorem is closed. The historical 900-second wall applies only to monolithic bv_decide or monolithic LRAT reconstruction, not to the now-banked resumable chunked architecture.",
+  "replicationCredit": false,
+  "theoremVictory": true,
+  "receiptHash": "sha256:39aa1b44e6583d10bba8b418e269ec8eaa7f0ea22275ecbc6175d0ae103228c6"
+}

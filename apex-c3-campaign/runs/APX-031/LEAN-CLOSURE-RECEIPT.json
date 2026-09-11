@@ -1,0 +1,46 @@
+{
+  "schema": "oracle.apex.lean-closure-receipt.v1",
+  "attackId": "APX-031",
+  "status": "LEAN_KERNEL_CHECKED",
+  "theoremVictory": true,
+  "claim": "Every 12 selected points in [0,49] contain an arbitrary-order C3 support.",
+  "leanTheorem": "C3Span50Semantic.span50",
+  "certificateTheorem": "C3Span50Certificate.unsat",
+  "statement": "(x : BitVec 50) -> 12 <= selectedCount x -> hasC3Violation x = true",
+  "encoding": {
+    "variables": 506,
+    "clauses": 16446,
+    "supportClauses": 15560,
+    "cardinalityClauses": 886,
+    "cnfSha256": "sha256:8c0bba7fc4ced900f4d59834b6aa8205246c6269ad917d277b11fdaed922bf22"
+  },
+  "proof": {
+    "lratSha256": "sha256:6e8f39eb6b2ebc23bd797a7dbf0412066de0e0055d7a814e16e1067334dff4d3",
+    "lratAdditions": 447254,
+    "coarseAdditions": 65000,
+    "fineAdditions": 382254,
+    "fineModules": 153,
+    "semanticSegments": 33,
+    "terminalModule": "EG411Formal.C3Span50Fine.Fine152",
+    "semanticModule": "EG411Formal.C3Span50SemanticBridge"
+  },
+  "audit": {
+    "buildExitCode": 0,
+    "buildJobs": 8453,
+    "sorryAx": false,
+    "nativeDecide": false,
+    "certificateAxioms": ["propext"],
+    "theoremAxioms": ["propext", "Classical.choice", "Quot.sound"]
+  },
+  "artifacts": {
+    "semanticBridge": "math/EG411Formal/EG411Formal/C3Span50SemanticBridge.lean",
+    "semanticBridgeSha256": "sha256:133e618a3dfa8047ac630dc0db9c602c15cb057dcc106d481599ec600bb1f35e",
+    "terminalCertificate": "math/EG411Formal/EG411Formal/C3Span50Fine/Fine152.lean",
+    "terminalCertificateSha256": "sha256:6557e7176982fd217fefeb494b72d687836e4f4a9887c0b6fc1ceab016e47a94",
+    "lratManifest": "state/apex-supersession-20260729/runs/APX-031/chunked-lrat/fine-65000-2500/MANIFEST.json",
+    "lratManifestSha256": "sha256:8d45bcde3b24b9f9d9f8d995f1bbd0600e752eeeb44144b4f83f9c0fcfb53d31",
+    "semanticManifest": "state/apex-supersession-20260729/runs/APX-031/semantic-bridge/MANIFEST.json",
+    "semanticManifestSha256": "sha256:c204557aa4b874f20eadb30c1fcf06bc0b95c570ae8974dc8cdaeaa7abc1998b"
+  },
+  "reusableTechnique": "Resumable dependency-preserving LRAT chunking plus a proved semantic-to-CNF bridge converts large externally checked finite UNSAT results into Lean-kernel theorems without monolithic reconstruction."
+}

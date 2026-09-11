@@ -1,0 +1,258 @@
+{
+  "schema": "oracle.apex.campaign-status.v1",
+  "contractHash": "sha256:cf51f8a7ada393c80e0389c334fe694d100b6a413f09face549394129d276b13",
+  "queueHash": "sha256:689117db95768c45fb333dfb5e0912c58943251019ae9a655867fae54ce87e0f",
+  "status": "RUNNING_OR_PARTIAL",
+  "terminal": 2,
+  "strictAdvances": 0,
+  "orthogonalWins": 2,
+  "duplicateControls": 0,
+  "honestNullWalls": 0,
+  "targets": [
+    {
+      "id": "APX-001",
+      "status": "TERMINAL_ADJUDICATED",
+      "classification": "ORTHOGONAL_NEW_WIN",
+      "receiptHash": "sha256:c93e7732bba6124c22dcc9ef35fceda89e7fe3b7003bba9ad400055dce20018d"
+    },
+    {
+      "id": "APX-002",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-003",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-004",
+      "status": "TERMINAL_ADJUDICATED",
+      "classification": "ORTHOGONAL_NEW_WIN",
+      "receiptHash": "sha256:7b6036f99f2a38121a5835dd452a0b1699e33ae20ea392eb2b94a3df34d42bad"
+    },
+    {
+      "id": "APX-005",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-006",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-007",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-008",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-009",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-010",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-011",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-012",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-013",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-014",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-015",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-016",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-017",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-018",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-019",
+      "status": "UNEXECUTED_REPLICATION_OR_STRICT_ADVANCE",
+      "baselineImpact": "PRE_RESOLVED_DUPLICATE_IF_REPEATED"
+    },
+    {
+      "id": "APX-020",
+      "status": "UNEXECUTED_REPLICATION_OR_STRICT_ADVANCE",
+      "baselineImpact": "PRE_RESOLVED_DUPLICATE_IF_REPEATED"
+    },
+    {
+      "id": "APX-021",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-022",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-023",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-024",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-025",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-026",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-027",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-028",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-029",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-030",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-031",
+      "status": "REOPENED_ACTIVE_NO_AGENT_STOP",
+      "historicalAdjudication": "INVALIDATED_PREMATURE_STOP",
+      "historicalReceiptHash": "sha256:4c58e70bbcde8f3bf2f86b0d8de2c5e91dc47d38c626faf13bb547e9b3eaa34d",
+      "activeLeanPid": 28348
+    },
+    {
+      "id": "APX-032",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-033",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-034",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-035",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-036",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-037",
+      "status": "UNEXECUTED_REPLICATION_OR_STRICT_ADVANCE",
+      "baselineImpact": "PRE_RESOLVED_DUPLICATE_IF_REPEATED"
+    },
+    {
+      "id": "APX-038",
+      "status": "UNEXECUTED_REPLICATION_OR_STRICT_ADVANCE",
+      "baselineImpact": "PRE_RESOLVED_DUPLICATE_IF_REPEATED"
+    },
+    {
+      "id": "APX-039",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-040",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-041",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-042",
+      "status": "UNEXECUTED_SUPERSESSION_TARGET",
+      "baselineImpact": "RAISED_SUPERSESSION_BAR"
+    },
+    {
+      "id": "APX-043",
+      "status": "UNEXECUTED_EXTERNAL_DATA_GATED",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-044",
+      "status": "UNEXECUTED_EXTERNAL_DATA_GATED",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-045",
+      "status": "UNEXECUTED_EXTERNAL_DATA_GATED",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-046",
+      "status": "UNEXECUTED_EXTERNAL_DATA_GATED",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-047",
+      "status": "UNEXECUTED_EXTERNAL_DATA_GATED",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    },
+    {
+      "id": "APX-048",
+      "status": "UNEXECUTED_EXTERNAL_DATA_GATED",
+      "baselineImpact": "UNAFFECTED_NEW_TARGET"
+    }
+  ],
+  "statusHash": "sha256:c4fee157b1e5ee966a7b14f9f0152ce34c23b74fa49bd22be66c749af61399a8"
+}

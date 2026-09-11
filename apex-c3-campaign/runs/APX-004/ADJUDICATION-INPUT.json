@@ -1,0 +1,13 @@
+{
+  "attackId": "APX-004",
+  "classification": "ORTHOGONAL_NEW_WIN",
+  "claim": "Among normalized C3-free 13-sets of span at most 63, there are exactly 6 sets in 4 reflection orbits; exact span counts are {'60': 1, '61': 0, '62': 1, '63': 4}, every span-60 and span-62 birth is reflection-symmetric as recorded by {'60': 1, '61': 0, '62': 1, '63': 0}, and every set is at replacement distance at most 7 from the unique span-60 birth orbit.",
+  "evidencePaths": [
+    "state/apex-supersession-20260729/runs/APX-004/EVIDENCE.json",
+    "state/apex-supersession-20260729/runs/APX-004/CLAIM.json"
+  ],
+  "independentVerifierPassed": true,
+  "independentExecutionPath": true,
+  "baselineComparison": "The baseline contains the unique span-50 12-set and no complete 13-set near-birth stability census.",
+  "supersessionProof": "Two independent support compilers agree; complete SAT model enumeration closes every normalized 13-set through excess span 3; reflection, distance, and exchange properties are recomputed directly from the complete census."
+}

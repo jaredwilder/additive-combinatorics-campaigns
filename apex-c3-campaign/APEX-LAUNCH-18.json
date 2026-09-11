@@ -1,0 +1,115 @@
+{
+  "schema": "oracle.apex.ranked-wave.v1",
+  "contractHash": "sha256:cf51f8a7ada393c80e0389c334fe694d100b6a413f09face549394129d276b13",
+  "targets": [
+    {
+      "rank": 1,
+      "id": "APX-001",
+      "title": "First 13-set birth: sealed prediction then exact reveal",
+      "apexPrize": "A correct first-13 theorem with a preregistered mechanism, or the least counterexample to the birth model."
+    },
+    {
+      "rank": 2,
+      "id": "APX-002",
+      "title": "Endpoint-gluing recursion theorem",
+      "apexPrize": "A reusable gluing theorem with explicit applicability boundaries."
+    },
+    {
+      "rank": 3,
+      "id": "APX-003",
+      "title": "Blocker species to symbolic gap theorem",
+      "apexPrize": "A short direct span proof that does not invoke the exact [50] solver result."
+    },
+    {
+      "rank": 4,
+      "id": "APX-007",
+      "title": "Beat exponent 1/2 for C3",
+      "apexPrize": "Any rigorously proved exponent >1/2."
+    },
+    {
+      "rank": 5,
+      "id": "APX-008",
+      "title": "Memoryless digit ceiling at exponent 1/2",
+      "apexPrize": "A class-optimality theorem or a least base/alphabet beating the ceiling."
+    },
+    {
+      "rank": 6,
+      "id": "APX-013",
+      "title": "Closed law for the least Pascal base",
+      "apexPrize": "A valid arbitrary-r formula/recurrence or a precise proof that the proposed class of formulas fails."
+    },
+    {
+      "rank": 7,
+      "id": "APX-015",
+      "title": "General coefficient carry criterion",
+      "apexPrize": "A theorem-grade criterion covering Pascal and non-Pascal families."
+    },
+    {
+      "rank": 8,
+      "id": "APX-019",
+      "title": "Full [a,-b,b,-a] normal form",
+      "apexPrize": "A complete primitive ratio normal form."
+    },
+    {
+      "rank": 9,
+      "id": "APX-020",
+      "title": "Fixed-N chamber decomposition",
+      "apexPrize": "A finite exact chamber theorem for arbitrary fixed N."
+    },
+    {
+      "rank": 10,
+      "id": "APX-025",
+      "title": "Human proof of first Sidon binding at N=26",
+      "apexPrize": "A compact first-binding theorem."
+    },
+    {
+      "rank": 11,
+      "id": "APX-028",
+      "title": "All-N mixed C2-C3 inequality",
+      "apexPrize": "A nontrivial all-N joint upper theorem."
+    },
+    {
+      "rank": 12,
+      "id": "APX-031",
+      "title": "Lean closure of the span-50 theorem",
+      "apexPrize": "Full theorem: every C3-free 12-set has span at least 50."
+    },
+    {
+      "rank": 13,
+      "id": "APX-033",
+      "title": "Formal carry-automaton soundness",
+      "apexPrize": "A generic kernel-checked carry decision theorem."
+    },
+    {
+      "rank": 14,
+      "id": "APX-035",
+      "title": "Tiny universal certificate checker",
+      "apexPrize": "A compact archival checker accepted by every flagship lane."
+    },
+    {
+      "rank": 15,
+      "id": "APX-037",
+      "title": "Five-blade sealed portfolio benchmark",
+      "apexPrize": "A measured theorem-production leaderboard."
+    },
+    {
+      "rank": 16,
+      "id": "APX-038",
+      "title": "No-new-theory baseline",
+      "apexPrize": "A clean estimate of internally compounded mathematical power."
+    },
+    {
+      "rank": 17,
+      "id": "APX-043",
+      "title": "Select and calibrate one real instrument",
+      "apexPrize": "A go/no-go law-identification receipt."
+    },
+    {
+      "rank": 18,
+      "id": "APX-044",
+      "title": "Robust analog margin theorem",
+      "apexPrize": "A buildable tolerance specification."
+    }
+  ],
+  "waveHash": "sha256:8ae394958bbd62c4cd4ce20c64d3875460d98e15f9644f0755220ef333b6bb52"
+}

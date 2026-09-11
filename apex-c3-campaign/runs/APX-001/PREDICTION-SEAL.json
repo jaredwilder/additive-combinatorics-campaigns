@@ -1,0 +1,31 @@
+{
+  "schema": "oracle.apex.prediction-seal.v1",
+  "attackId": "APX-001",
+  "contractHash": "sha256:cf51f8a7ada393c80e0389c334fe694d100b6a413f09face549394129d276b13",
+  "frozenAt": "2026-07-30T01:11:09.633876+00:00",
+  "informationBoundary": [
+    "state/gold-round-live-20260729/C3-BREAKPOINT-THEOREM.json"
+  ],
+  "predictionRule": "Keep the unique certified 12-set birth fixed and append the least right endpoint that creates no arbitrary-distinct ordered C3 violation.",
+  "predictedLeastN": 86,
+  "predictedSpan": 85,
+  "predictedWitness": [
+    1,
+    4,
+    6,
+    8,
+    11,
+    24,
+    28,
+    41,
+    44,
+    46,
+    48,
+    51,
+    86
+  ],
+  "rejectedEndpointCount": 34,
+  "rejectedEndpointHash": "sha256:733156be5a84f6d5ec700fc76eabe67ee0028df5835fe8704f58b54dda8f807e",
+  "noFrontierDataRead": true,
+  "sealHash": "sha256:51c6f27b77f92e045a22bea4c429a6c847d84528cf2eb584c1fd3f57de0a9602"
+}

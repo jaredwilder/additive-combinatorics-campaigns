@@ -1,0 +1,16 @@
+{
+  "round": 2,
+  "strategy": "certificate_checker",
+  "model": "google/gemini-3.1-pro-preview",
+  "status": "PROPOSAL_REJECTED",
+  "source": null,
+  "sourceHash": null,
+  "test": {
+    "status": "PROPOSAL_REJECTED",
+    "error": "AttributeError(\"'list' object has no attribute 'get'\")"
+  },
+  "usage": {},
+  "costUsd": null,
+  "error": "AttributeError(\"'list' object has no attribute 'get'\")",
+  "completedAt": "2026-07-30T01:28:46.881750+00:00"
+}

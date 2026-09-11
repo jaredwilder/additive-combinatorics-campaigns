@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "kind": "tar-dir",
+  "original_path": "C:/Users/jared/Local Sites/woocommerce-enterprise/oracle/state/apex-supersession-20260729/runs/APX-031/sat-certificate",
+  "sha256": "7c86186068acc3a3c17a032a85d4617bd3fab8e409d826e29e4ae9d1738ff932",
+  "payload_bytes": 70902760,
+  "original_bytes": 288093506,
+  "file_count": 6,
+  "bucket": "oracle-data-corpus",
+  "key": "archives/sat-certificate/sat-certificate.tar.gz",
+  "uri": "s3://oracle-data-corpus/archives/sat-certificate/sat-certificate.tar.gz",
+  "offloaded_at": "2026-08-10T23:16:29Z",
+  "restore_cmd": "python oracle/scripts/b2_restore.py oracle/state/apex-supersession-20260729/runs/APX-031/sat-certificate.b2ptr.json"
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "oracle.apex.adjudication.v1",
+  "contractHash": "sha256:cf51f8a7ada393c80e0389c334fe694d100b6a413f09face549394129d276b13",
+  "baselineHash": "sha256:192e44fa558546996c67a4e8222e73536d93b53a05e961490714e63213d2db18",
+  "attackHash": "sha256:d20d3249e56d499e34fad523d1e5ef8699a7500496d21799b1728e29b59b28e1",
+  "attackId": "APX-001",
+  "classification": "ORTHOGONAL_NEW_WIN",
+  "claim": "The minimum span of a 13-element C3-free integer set is exactly 60; equivalently its first normalized birth is [1,61].",
+  "baselineComparison": "The timestamp baseline closes the 12-set birth at span 50 but contains no exact first 13-set birth theorem.",
+  "advanceBar": "Close the stated Apex win without reproducing any championship claim as a new discovery.",
+  "evidencePaths": [
+    "state/apex-supersession-20260729/runs/APX-001/PREDICTION-SEAL.json",
+    "state/apex-supersession-20260729/runs/APX-001/EVIDENCE.json",
+    "state/apex-supersession-20260729/runs/APX-001/CLAIM.json"
+  ],
+  "supersessionProof": "Primary sorted-gap species supports and independent ordered-pair supports agree exactly; PySAT proves the lower boundary UNSAT, CP-SAT independently proves its maximum is 12, and the first witness is directly checked over all ordered distinct tuples.",
+  "exactBoundary": null,
+  "replicationCredit": false,
+  "theoremVictory": true,
+  "receiptHash": "sha256:c93e7732bba6124c22dcc9ef35fceda89e7fe3b7003bba9ad400055dce20018d"
+}

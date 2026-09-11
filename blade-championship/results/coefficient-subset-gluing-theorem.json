@@ -1,0 +1,87 @@
+{
+  "schema": "oracle.blade-championship.result.v1",
+  "blade": "coefficient-subset-gluing-theorem",
+  "bladeHashBefore": "sha256:c2c23874dbe2676d78b8b24688f11e891c9bb4d624280bbd7f16ec27eaf2bff6",
+  "bladeHashAfter": "sha256:c2c23874dbe2676d78b8b24688f11e891c9bb4d624280bbd7f16ec27eaf2bff6",
+  "externalTheoryCalls": 0,
+  "manualRetuningAfterSeal": false,
+  "newTheorem": {
+    "statement": "If an integer zero-sum coefficient vector c has no proper zero-sum coefficient subset, and A is c-free with span L, then A union (D+A) is c-free for every D > L*sum_i|c_i|. Iterating gives a certified doubling construction and an explicit cardinality-birth upper recurrence.",
+    "proof": "Internal tuples are excluded by freeness. Every cross tuple has translated-side coefficient sum C_R!=0. Its translation term has magnitude at least D, while the residual has magnitude at most L*||c||_1, so it cannot vanish.",
+    "coefficients": [
+      1,
+      1,
+      1,
+      -3
+    ],
+    "thresholdMultiplier": 6
+  },
+  "blindTransfer": {
+    "seal": {
+      "tag": "gluing-blind-transfer",
+      "pool": [
+        {
+          "coefficients": [
+            1,
+            1,
+            2,
+            -4
+          ]
+        },
+        {
+          "coefficients": [
+            1,
+            2,
+            2,
+            -5
+          ]
+        }
+      ],
+      "rule": "sha256 modulo canonical pool length",
+      "sealHash": "sha256:f7d76c20e430045fb7be20385fa09a8aa4fd561b3a2aed206d50b7e5e05a871d",
+      "selectedIndex": 1,
+      "selected": {
+        "coefficients": [
+          1,
+          2,
+          2,
+          -5
+        ]
+      }
+    },
+    "coefficients": [
+      1,
+      2,
+      2,
+      -5
+    ],
+    "properZeroSumSubsets": [],
+    "theoremApplies": true,
+    "zeroSecondInference": true
+  },
+  "exactRejectionBoundary": {
+    "coefficients": [
+      1,
+      -3,
+      3,
+      -1
+    ],
+    "properZeroSumSubsets": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "boundary": "separation-only doubling is rejected exactly when a proper translated-side coefficient subset sums to zero; its residual survives every D"
+  },
+  "compressedExplanation": "Large separation kills every cross pattern unless the coefficients placed on the translated side sum to zero. Thus the coefficient subset-sum profile—not vague “large gaps”—is the exact switch between a doubling theorem and a permanent gluing obligation.",
+  "artifacts": {
+    "transferSeal": "sha256:f7d76c20e430045fb7be20385fa09a8aa4fd561b3a2aed206d50b7e5e05a871d"
+  },
+  "finishedAt": "2026-07-30T00:49:57.116395+00:00",
+  "resultHash": "sha256:7038257a5db3d7d86665c98655be6b7486ff73732509cdb52f9615ec82dd1a85"
+}

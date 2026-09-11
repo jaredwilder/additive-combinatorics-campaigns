@@ -1,0 +1,2170 @@
+{
+  "schema": "oracle.blade-championship.result.v1",
+  "blade": "parameter-cell-compiler",
+  "bladeHashBefore": "sha256:ab90d719919be3155d1821c55c7f7500a857cf9ce74929c89f10758090d5f608",
+  "bladeHashAfter": "sha256:ab90d719919be3155d1821c55c7f7500a857cf9ce74929c89f10758090d5f608",
+  "externalTheoryCalls": 0,
+  "manualRetuningAfterSeal": false,
+  "newTheorem": {
+    "statement": "For the two-parameter zero-sum family [a,-b,c,b-c-a] on a fixed finite integer domain X, every forbidden support occurs on an integer parameter line b(x4-x2)+c(x3-x4)=a(x4-x1). Therefore the full (b,c)-plane is partitioned exactly by finitely many tuple-lines into support-hypergraph chambers; points off their union have the empty hypergraph.",
+    "proof": "Expand the relation and collect b and c. Every ordered distinct tuple contributes exactly one linear Diophantine condition, and conversely every parameter point on that line realizes that tuple. Canonicalizing tuple supports and hashing their incident lines gives exact chamber equality.",
+    "finiteAtlas": {
+      "n": 6,
+      "a": 1,
+      "limit": 10,
+      "cells": {
+        "1,1": {
+          "supportHash": "sha256:5827ebce12cb1a938cf358377199c46fe6fd495cf4a2a74a054544b608761f90",
+          "supportCount": 7,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "1,2": {
+          "supportHash": "sha256:c90bb577ea258b70bd28f2cbfcb2cdb587cace815b02f44bd337272c2eaa81dc",
+          "supportCount": 10,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "1,3": {
+          "supportHash": "sha256:961c30dc3683a2e707a73fec960fdfe01936d04c693a0e756649e7aeb6375a2f",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "1,4": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "1,5": {
+          "supportHash": "sha256:16c63c14d117379218c57f83b4a292a5bb9fb10f78b6f6d7651af96fa3a59fb0",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "1,6": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "1,7": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "1,8": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "1,9": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "1,10": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "2,1": {
+          "supportHash": "sha256:de11e268222224ba8fc12d8882feedc3bab1a46397230d517cf4ad7d25908227",
+          "supportCount": 11,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "2,2": {
+          "supportHash": "sha256:c90bb577ea258b70bd28f2cbfcb2cdb587cace815b02f44bd337272c2eaa81dc",
+          "supportCount": 10,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "2,3": {
+          "supportHash": "sha256:8bd1b91bd88aa21ce994e9561eb99483dc81e66fb35e0a147ba96f594ce3c08c",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "2,4": {
+          "supportHash": "sha256:573dede3b799a4ca26919213753501e8eae6317500fce015aca702430f68fb3a",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "2,5": {
+          "supportHash": "sha256:6fc914e29ed5d42b0cfbbc224d6bbf31d81adfcecb806373f0007c1ecfad6635",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "2,6": {
+          "supportHash": "sha256:9bc8976e7da78e18de210044b99beef8e4526354044dc93b51a32d45c6f39c20",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "2,7": {
+          "supportHash": "sha256:e7910a95db6e50deb08a67c423aae9221837559b4ea3146419b8aca3d0e986f6",
+          "supportCount": 8,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "2,8": {
+          "supportHash": "sha256:16c63c14d117379218c57f83b4a292a5bb9fb10f78b6f6d7651af96fa3a59fb0",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "2,9": {
+          "supportHash": "sha256:b7540de27d515be286bb5401b500670fc53f698b1dea6a38bfb224e5088c6606",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "2,10": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "3,1": {
+          "supportHash": "sha256:b7540de27d515be286bb5401b500670fc53f698b1dea6a38bfb224e5088c6606",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "3,2": {
+          "supportHash": "sha256:b80b9e39eacdc9a7b633428952a97ca4debc7cbd740820bae8ef1de2f7cd3976",
+          "supportCount": 12,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "3,3": {
+          "supportHash": "sha256:961c30dc3683a2e707a73fec960fdfe01936d04c693a0e756649e7aeb6375a2f",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "3,4": {
+          "supportHash": "sha256:573dede3b799a4ca26919213753501e8eae6317500fce015aca702430f68fb3a",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "3,5": {
+          "supportHash": "sha256:1df9c8d5616f37e6b72c103f3ba2ee5f1df822c7b66179801d1b45cc7492d81c",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        "3,6": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "3,7": {
+          "supportHash": "sha256:2742d310d9ebaa820fafb5e654f7293c9e5cf4d6a2597bb300bac0c04f94700d",
+          "supportCount": 6,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "3,8": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "3,9": {
+          "supportHash": "sha256:abc12766044f2652f3e789403d974c016e191c899fadf09cdb4aacec05b64e72",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "3,10": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "4,1": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "4,2": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "4,3": {
+          "supportHash": "sha256:8aa3848a3cb5d729d47dec92c06ed7779a5479d22c7cb10f11ea940bd397908f",
+          "supportCount": 9,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "4,4": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "4,5": {
+          "supportHash": "sha256:6fc914e29ed5d42b0cfbbc224d6bbf31d81adfcecb806373f0007c1ecfad6635",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "4,6": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "4,7": {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "4,8": {
+          "supportHash": "sha256:0d7a1df6458960725aedbc8410b7ad4a56568a00a42ee3bea5fb3fd7b78ef5dd",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        "4,9": {
+          "supportHash": "sha256:91422e03e160a57af760c3f19883683e9599a5408c4e70e15f51802ddca075ac",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "4,10": {
+          "supportHash": "sha256:74dbcd481250d7ff95058159f118f8f5e1f44f054658e521301eda15ea61aa3f",
+          "supportCount": 7,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "5,1": {
+          "supportHash": "sha256:91422e03e160a57af760c3f19883683e9599a5408c4e70e15f51802ddca075ac",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "5,2": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "5,3": {
+          "supportHash": "sha256:91422e03e160a57af760c3f19883683e9599a5408c4e70e15f51802ddca075ac",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "5,4": {
+          "supportHash": "sha256:bf95840de72d335efa0a14ddeafaa7e3662cb0dd79573f5e73899fe69e0e1008",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "5,5": {
+          "supportHash": "sha256:16c63c14d117379218c57f83b4a292a5bb9fb10f78b6f6d7651af96fa3a59fb0",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "5,6": {
+          "supportHash": "sha256:9bc8976e7da78e18de210044b99beef8e4526354044dc93b51a32d45c6f39c20",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "5,7": {
+          "supportHash": "sha256:2742d310d9ebaa820fafb5e654f7293c9e5cf4d6a2597bb300bac0c04f94700d",
+          "supportCount": 6,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "5,8": {
+          "supportHash": "sha256:0d7a1df6458960725aedbc8410b7ad4a56568a00a42ee3bea5fb3fd7b78ef5dd",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        "5,9": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "5,10": {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "6,1": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "6,2": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "6,3": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "6,4": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "6,5": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "6,6": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "6,7": {
+          "supportHash": "sha256:e7910a95db6e50deb08a67c423aae9221837559b4ea3146419b8aca3d0e986f6",
+          "supportCount": 8,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "6,8": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "6,9": {
+          "supportHash": "sha256:91422e03e160a57af760c3f19883683e9599a5408c4e70e15f51802ddca075ac",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "6,10": {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "7,1": {
+          "supportHash": "sha256:abc12766044f2652f3e789403d974c016e191c899fadf09cdb4aacec05b64e72",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "7,2": {
+          "supportHash": "sha256:62187f4828e290d918d33f18dcbaa072dbf94c128559ebb6f81415372bd55d5e",
+          "supportCount": 7,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "7,3": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "7,4": {
+          "supportHash": "sha256:62187f4828e290d918d33f18dcbaa072dbf94c128559ebb6f81415372bd55d5e",
+          "supportCount": 7,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "7,5": {
+          "supportHash": "sha256:abc12766044f2652f3e789403d974c016e191c899fadf09cdb4aacec05b64e72",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "7,6": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "7,7": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "7,8": {
+          "supportHash": "sha256:16c63c14d117379218c57f83b4a292a5bb9fb10f78b6f6d7651af96fa3a59fb0",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "7,9": {
+          "supportHash": "sha256:abc12766044f2652f3e789403d974c016e191c899fadf09cdb4aacec05b64e72",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "7,10": {
+          "supportHash": "sha256:74dbcd481250d7ff95058159f118f8f5e1f44f054658e521301eda15ea61aa3f",
+          "supportCount": 7,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "8,1": {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "8,2": {
+          "supportHash": "sha256:74dbcd481250d7ff95058159f118f8f5e1f44f054658e521301eda15ea61aa3f",
+          "supportCount": 7,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "8,3": {
+          "supportHash": "sha256:83d9ed9c88d0edbd43287d9d42aa9e69eb381894883d934eb442e54077341e6e",
+          "supportCount": 6,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "8,4": {
+          "supportHash": "sha256:83d9ed9c88d0edbd43287d9d42aa9e69eb381894883d934eb442e54077341e6e",
+          "supportCount": 6,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "8,5": {
+          "supportHash": "sha256:74dbcd481250d7ff95058159f118f8f5e1f44f054658e521301eda15ea61aa3f",
+          "supportCount": 7,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "8,6": {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "8,7": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "8,8": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "8,9": {
+          "supportHash": "sha256:b7540de27d515be286bb5401b500670fc53f698b1dea6a38bfb224e5088c6606",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "8,10": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "9,1": {
+          "supportHash": "sha256:b998ab442b6d12ef3ac0c18cd3f7a86366e3a5ede0590ba640c356f1c44a6abe",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        "9,2": {
+          "supportHash": "sha256:b7540de27d515be286bb5401b500670fc53f698b1dea6a38bfb224e5088c6606",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "9,3": {
+          "supportHash": "sha256:cd099878734e26a1031f4311ae77077afc1e0a95b2fbe614edd0100ec0440614",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "9,4": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "9,5": {
+          "supportHash": "sha256:cd099878734e26a1031f4311ae77077afc1e0a95b2fbe614edd0100ec0440614",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "9,6": {
+          "supportHash": "sha256:b7540de27d515be286bb5401b500670fc53f698b1dea6a38bfb224e5088c6606",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "9,7": {
+          "supportHash": "sha256:b998ab442b6d12ef3ac0c18cd3f7a86366e3a5ede0590ba640c356f1c44a6abe",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        "9,8": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "9,9": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "9,10": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "10,1": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "10,2": {
+          "supportHash": "sha256:4e5ddf5f1bcf727b107acb4918b023a66f24704e1bcbad83783695e2ea698990",
+          "supportCount": 6,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "10,3": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "10,4": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "10,5": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "10,6": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "10,7": {
+          "supportHash": "sha256:4e5ddf5f1bcf727b107acb4918b023a66f24704e1bcbad83783695e2ea698990",
+          "supportCount": 6,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "10,8": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "10,9": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "10,10": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        }
+      },
+      "hashChambers": [
+        {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "parameters": [
+            "3,6",
+            "4,1",
+            "4,2",
+            "4,6",
+            "7,3",
+            "10,4",
+            "10,5"
+          ]
+        },
+        {
+          "supportHash": "sha256:0d7a1df6458960725aedbc8410b7ad4a56568a00a42ee3bea5fb3fd7b78ef5dd",
+          "parameters": [
+            "4,8",
+            "5,8"
+          ]
+        },
+        {
+          "supportHash": "sha256:16c63c14d117379218c57f83b4a292a5bb9fb10f78b6f6d7651af96fa3a59fb0",
+          "parameters": [
+            "1,5",
+            "2,8",
+            "5,5",
+            "7,8"
+          ]
+        },
+        {
+          "supportHash": "sha256:1df9c8d5616f37e6b72c103f3ba2ee5f1df822c7b66179801d1b45cc7492d81c",
+          "parameters": [
+            "3,5"
+          ]
+        },
+        {
+          "supportHash": "sha256:2742d310d9ebaa820fafb5e654f7293c9e5cf4d6a2597bb300bac0c04f94700d",
+          "parameters": [
+            "3,7",
+            "5,7"
+          ]
+        },
+        {
+          "supportHash": "sha256:4e5ddf5f1bcf727b107acb4918b023a66f24704e1bcbad83783695e2ea698990",
+          "parameters": [
+            "10,2",
+            "10,7"
+          ]
+        },
+        {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "parameters": [
+            "1,6",
+            "1,7",
+            "1,8",
+            "1,9",
+            "1,10",
+            "2,10",
+            "5,9",
+            "6,2",
+            "6,3",
+            "6,5",
+            "6,6",
+            "7,6",
+            "7,7",
+            "8,7",
+            "8,8",
+            "9,4",
+            "9,8",
+            "9,9",
+            "9,10",
+            "10,1",
+            "10,8",
+            "10,9",
+            "10,10"
+          ]
+        },
+        {
+          "supportHash": "sha256:573dede3b799a4ca26919213753501e8eae6317500fce015aca702430f68fb3a",
+          "parameters": [
+            "2,4",
+            "3,4"
+          ]
+        },
+        {
+          "supportHash": "sha256:5827ebce12cb1a938cf358377199c46fe6fd495cf4a2a74a054544b608761f90",
+          "parameters": [
+            "1,1"
+          ]
+        },
+        {
+          "supportHash": "sha256:62187f4828e290d918d33f18dcbaa072dbf94c128559ebb6f81415372bd55d5e",
+          "parameters": [
+            "7,2",
+            "7,4"
+          ]
+        },
+        {
+          "supportHash": "sha256:6fc914e29ed5d42b0cfbbc224d6bbf31d81adfcecb806373f0007c1ecfad6635",
+          "parameters": [
+            "2,5",
+            "4,5"
+          ]
+        },
+        {
+          "supportHash": "sha256:74dbcd481250d7ff95058159f118f8f5e1f44f054658e521301eda15ea61aa3f",
+          "parameters": [
+            "4,10",
+            "7,10",
+            "8,2",
+            "8,5"
+          ]
+        },
+        {
+          "supportHash": "sha256:83d9ed9c88d0edbd43287d9d42aa9e69eb381894883d934eb442e54077341e6e",
+          "parameters": [
+            "8,3",
+            "8,4"
+          ]
+        },
+        {
+          "supportHash": "sha256:8aa3848a3cb5d729d47dec92c06ed7779a5479d22c7cb10f11ea940bd397908f",
+          "parameters": [
+            "4,3"
+          ]
+        },
+        {
+          "supportHash": "sha256:8bd1b91bd88aa21ce994e9561eb99483dc81e66fb35e0a147ba96f594ce3c08c",
+          "parameters": [
+            "2,3"
+          ]
+        },
+        {
+          "supportHash": "sha256:91422e03e160a57af760c3f19883683e9599a5408c4e70e15f51802ddca075ac",
+          "parameters": [
+            "4,9",
+            "5,1",
+            "5,3",
+            "6,9"
+          ]
+        },
+        {
+          "supportHash": "sha256:961c30dc3683a2e707a73fec960fdfe01936d04c693a0e756649e7aeb6375a2f",
+          "parameters": [
+            "1,3",
+            "3,3"
+          ]
+        },
+        {
+          "supportHash": "sha256:9bc8976e7da78e18de210044b99beef8e4526354044dc93b51a32d45c6f39c20",
+          "parameters": [
+            "2,6",
+            "5,6"
+          ]
+        },
+        {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "parameters": [
+            "1,4",
+            "3,8",
+            "3,10",
+            "4,4",
+            "5,2",
+            "6,1",
+            "6,4",
+            "6,8",
+            "8,10",
+            "10,3",
+            "10,6"
+          ]
+        },
+        {
+          "supportHash": "sha256:abc12766044f2652f3e789403d974c016e191c899fadf09cdb4aacec05b64e72",
+          "parameters": [
+            "3,9",
+            "7,1",
+            "7,5",
+            "7,9"
+          ]
+        },
+        {
+          "supportHash": "sha256:b7540de27d515be286bb5401b500670fc53f698b1dea6a38bfb224e5088c6606",
+          "parameters": [
+            "2,9",
+            "3,1",
+            "8,9",
+            "9,2",
+            "9,6"
+          ]
+        },
+        {
+          "supportHash": "sha256:b80b9e39eacdc9a7b633428952a97ca4debc7cbd740820bae8ef1de2f7cd3976",
+          "parameters": [
+            "3,2"
+          ]
+        },
+        {
+          "supportHash": "sha256:b998ab442b6d12ef3ac0c18cd3f7a86366e3a5ede0590ba640c356f1c44a6abe",
+          "parameters": [
+            "9,1",
+            "9,7"
+          ]
+        },
+        {
+          "supportHash": "sha256:bf95840de72d335efa0a14ddeafaa7e3662cb0dd79573f5e73899fe69e0e1008",
+          "parameters": [
+            "5,4"
+          ]
+        },
+        {
+          "supportHash": "sha256:c90bb577ea258b70bd28f2cbfcb2cdb587cace815b02f44bd337272c2eaa81dc",
+          "parameters": [
+            "1,2",
+            "2,2"
+          ]
+        },
+        {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "parameters": [
+            "4,7",
+            "5,10",
+            "6,10",
+            "8,1",
+            "8,6"
+          ]
+        },
+        {
+          "supportHash": "sha256:cd099878734e26a1031f4311ae77077afc1e0a95b2fbe614edd0100ec0440614",
+          "parameters": [
+            "9,3",
+            "9,5"
+          ]
+        },
+        {
+          "supportHash": "sha256:de11e268222224ba8fc12d8882feedc3bab1a46397230d517cf4ad7d25908227",
+          "parameters": [
+            "2,1"
+          ]
+        },
+        {
+          "supportHash": "sha256:e7910a95db6e50deb08a67c423aae9221837559b4ea3146419b8aca3d0e986f6",
+          "parameters": [
+            "2,7",
+            "6,7"
+          ]
+        }
+      ]
+    }
+  },
+  "blindTransfer": {
+    "seal": {
+      "tag": "parameter-blind-transfer",
+      "pool": [
+        {
+          "a": 2,
+          "n": 6,
+          "limit": 9
+        },
+        {
+          "a": 3,
+          "n": 6,
+          "limit": 9
+        }
+      ],
+      "rule": "sha256 modulo canonical pool length",
+      "sealHash": "sha256:fba2e6f3a7ea39d797ca7a53d1a0c35d682e0edcf644909b11485208182e5315",
+      "selectedIndex": 1,
+      "selected": {
+        "a": 3,
+        "n": 6,
+        "limit": 9
+      }
+    },
+    "atlas": {
+      "n": 6,
+      "a": 3,
+      "limit": 9,
+      "cells": {
+        "1,1": {
+          "supportHash": "sha256:961c30dc3683a2e707a73fec960fdfe01936d04c693a0e756649e7aeb6375a2f",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "1,2": {
+          "supportHash": "sha256:573dede3b799a4ca26919213753501e8eae6317500fce015aca702430f68fb3a",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "1,3": {
+          "supportHash": "sha256:1df9c8d5616f37e6b72c103f3ba2ee5f1df822c7b66179801d1b45cc7492d81c",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        "1,4": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "1,5": {
+          "supportHash": "sha256:2742d310d9ebaa820fafb5e654f7293c9e5cf4d6a2597bb300bac0c04f94700d",
+          "supportCount": 6,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "1,6": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "1,7": {
+          "supportHash": "sha256:abc12766044f2652f3e789403d974c016e191c899fadf09cdb4aacec05b64e72",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "1,8": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "1,9": {
+          "supportHash": "sha256:9bc9117f11292b0ddb73c8cd27373fe86bd78514ccbbadd2b1258a67efb1d06e",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        "2,1": {
+          "supportHash": "sha256:8bd1b91bd88aa21ce994e9561eb99483dc81e66fb35e0a147ba96f594ce3c08c",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "2,2": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "2,3": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "2,4": {
+          "supportHash": "sha256:8bcdf01a1e78b706f2f798981669b36f9643fed29135f6677a1cc67f5b06bd05",
+          "supportCount": 9,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "2,5": {
+          "supportHash": "sha256:1df9c8d5616f37e6b72c103f3ba2ee5f1df822c7b66179801d1b45cc7492d81c",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        "2,6": {
+          "supportHash": "sha256:8bd1b91bd88aa21ce994e9561eb99483dc81e66fb35e0a147ba96f594ce3c08c",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "2,7": {
+          "supportHash": "sha256:74dbcd481250d7ff95058159f118f8f5e1f44f054658e521301eda15ea61aa3f",
+          "supportCount": 7,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "2,8": {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "2,9": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "3,1": {
+          "supportHash": "sha256:961c30dc3683a2e707a73fec960fdfe01936d04c693a0e756649e7aeb6375a2f",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "3,2": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "3,3": {
+          "supportHash": "sha256:5827ebce12cb1a938cf358377199c46fe6fd495cf4a2a74a054544b608761f90",
+          "supportCount": 7,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "3,4": {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "3,5": {
+          "supportHash": "sha256:b998ab442b6d12ef3ac0c18cd3f7a86366e3a5ede0590ba640c356f1c44a6abe",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        "3,6": {
+          "supportHash": "sha256:c90bb577ea258b70bd28f2cbfcb2cdb587cace815b02f44bd337272c2eaa81dc",
+          "supportCount": 10,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "3,7": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "3,8": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "3,9": {
+          "supportHash": "sha256:961c30dc3683a2e707a73fec960fdfe01936d04c693a0e756649e7aeb6375a2f",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "4,1": {
+          "supportHash": "sha256:8aa3848a3cb5d729d47dec92c06ed7779a5479d22c7cb10f11ea940bd397908f",
+          "supportCount": 9,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "4,2": {
+          "supportHash": "sha256:573dede3b799a4ca26919213753501e8eae6317500fce015aca702430f68fb3a",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "4,3": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "4,4": {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "4,5": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "4,6": {
+          "supportHash": "sha256:91422e03e160a57af760c3f19883683e9599a5408c4e70e15f51802ddca075ac",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "4,7": {
+          "supportHash": "sha256:1df9c8d5616f37e6b72c103f3ba2ee5f1df822c7b66179801d1b45cc7492d81c",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        "4,8": {
+          "supportHash": "sha256:a601308b88d1df352a05eb1eb26195e071f32add78e1ad6cf807eb9f66974d76",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "4,9": {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "5,1": {
+          "supportHash": "sha256:91422e03e160a57af760c3f19883683e9599a5408c4e70e15f51802ddca075ac",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "5,2": {
+          "supportHash": "sha256:80ffaae29e27f2aadde2a4ea1269c228a7ee6ac95893ab21644c013f41550bca",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "5,3": {
+          "supportHash": "sha256:1df9c8d5616f37e6b72c103f3ba2ee5f1df822c7b66179801d1b45cc7492d81c",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        "5,4": {
+          "supportHash": "sha256:8bcdf01a1e78b706f2f798981669b36f9643fed29135f6677a1cc67f5b06bd05",
+          "supportCount": 9,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "5,5": {
+          "supportHash": "sha256:b998ab442b6d12ef3ac0c18cd3f7a86366e3a5ede0590ba640c356f1c44a6abe",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        "5,6": {
+          "supportHash": "sha256:91422e03e160a57af760c3f19883683e9599a5408c4e70e15f51802ddca075ac",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "5,7": {
+          "supportHash": "sha256:b7540de27d515be286bb5401b500670fc53f698b1dea6a38bfb224e5088c6606",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "5,8": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "5,9": {
+          "supportHash": "sha256:6fc914e29ed5d42b0cfbbc224d6bbf31d81adfcecb806373f0007c1ecfad6635",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "6,1": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "6,2": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "6,3": {
+          "supportHash": "sha256:de11e268222224ba8fc12d8882feedc3bab1a46397230d517cf4ad7d25908227",
+          "supportCount": 11,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "6,4": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "6,5": {
+          "supportHash": "sha256:1df9c8d5616f37e6b72c103f3ba2ee5f1df822c7b66179801d1b45cc7492d81c",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        "6,6": {
+          "supportHash": "sha256:c90bb577ea258b70bd28f2cbfcb2cdb587cace815b02f44bd337272c2eaa81dc",
+          "supportCount": 10,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "6,7": {
+          "supportHash": "sha256:1df9c8d5616f37e6b72c103f3ba2ee5f1df822c7b66179801d1b45cc7492d81c",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        "6,8": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "6,9": {
+          "supportHash": "sha256:8bd1b91bd88aa21ce994e9561eb99483dc81e66fb35e0a147ba96f594ce3c08c",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "7,1": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "7,2": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "7,3": {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "supportCount": 1,
+          "leastSupport": [
+            1,
+            3,
+            4,
+            6
+          ]
+        },
+        "7,4": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "7,5": {
+          "supportHash": "sha256:2742d310d9ebaa820fafb5e654f7293c9e5cf4d6a2597bb300bac0c04f94700d",
+          "supportCount": 6,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "7,6": {
+          "supportHash": "sha256:8bd1b91bd88aa21ce994e9561eb99483dc81e66fb35e0a147ba96f594ce3c08c",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "7,7": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "7,8": {
+          "supportHash": "sha256:a601308b88d1df352a05eb1eb26195e071f32add78e1ad6cf807eb9f66974d76",
+          "supportCount": 3,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "7,9": {
+          "supportHash": "sha256:6fc914e29ed5d42b0cfbbc224d6bbf31d81adfcecb806373f0007c1ecfad6635",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "8,1": {
+          "supportHash": "sha256:83d9ed9c88d0edbd43287d9d42aa9e69eb381894883d934eb442e54077341e6e",
+          "supportCount": 6,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "8,2": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "8,3": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "8,4": {
+          "supportHash": "sha256:83d9ed9c88d0edbd43287d9d42aa9e69eb381894883d934eb442e54077341e6e",
+          "supportCount": 6,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "8,5": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "8,6": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "8,7": {
+          "supportHash": "sha256:74dbcd481250d7ff95058159f118f8f5e1f44f054658e521301eda15ea61aa3f",
+          "supportCount": 7,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "8,8": {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "supportCount": 0,
+          "leastSupport": null
+        },
+        "8,9": {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "9,1": {
+          "supportHash": "sha256:cd099878734e26a1031f4311ae77077afc1e0a95b2fbe614edd0100ec0440614",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "9,2": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "9,3": {
+          "supportHash": "sha256:b7540de27d515be286bb5401b500670fc53f698b1dea6a38bfb224e5088c6606",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "9,4": {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        "9,5": {
+          "supportHash": "sha256:cd099878734e26a1031f4311ae77077afc1e0a95b2fbe614edd0100ec0440614",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "9,6": {
+          "supportHash": "sha256:b80b9e39eacdc9a7b633428952a97ca4debc7cbd740820bae8ef1de2f7cd3976",
+          "supportCount": 12,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "9,7": {
+          "supportHash": "sha256:abc12766044f2652f3e789403d974c016e191c899fadf09cdb4aacec05b64e72",
+          "supportCount": 4,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        "9,8": {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "supportCount": 2,
+          "leastSupport": [
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        "9,9": {
+          "supportHash": "sha256:961c30dc3683a2e707a73fec960fdfe01936d04c693a0e756649e7aeb6375a2f",
+          "supportCount": 5,
+          "leastSupport": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "hashChambers": [
+        {
+          "supportHash": "sha256:0af2dd8fda323b4fa123ceb93d1723ff0e423dbb53d3ab6d09699a394ad5a130",
+          "parameters": [
+            "1,4",
+            "5,8",
+            "6,4",
+            "6,8",
+            "7,1",
+            "7,3"
+          ]
+        },
+        {
+          "supportHash": "sha256:1df9c8d5616f37e6b72c103f3ba2ee5f1df822c7b66179801d1b45cc7492d81c",
+          "parameters": [
+            "1,3",
+            "2,5",
+            "4,7",
+            "5,3",
+            "6,5",
+            "6,7"
+          ]
+        },
+        {
+          "supportHash": "sha256:2742d310d9ebaa820fafb5e654f7293c9e5cf4d6a2597bb300bac0c04f94700d",
+          "parameters": [
+            "1,5",
+            "7,5"
+          ]
+        },
+        {
+          "supportHash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "parameters": [
+            "2,3",
+            "3,7",
+            "3,8",
+            "4,3",
+            "6,1",
+            "6,2",
+            "7,4",
+            "7,7",
+            "8,2",
+            "8,3",
+            "8,5",
+            "8,8"
+          ]
+        },
+        {
+          "supportHash": "sha256:573dede3b799a4ca26919213753501e8eae6317500fce015aca702430f68fb3a",
+          "parameters": [
+            "1,2",
+            "4,2"
+          ]
+        },
+        {
+          "supportHash": "sha256:5827ebce12cb1a938cf358377199c46fe6fd495cf4a2a74a054544b608761f90",
+          "parameters": [
+            "3,3"
+          ]
+        },
+        {
+          "supportHash": "sha256:6fc914e29ed5d42b0cfbbc224d6bbf31d81adfcecb806373f0007c1ecfad6635",
+          "parameters": [
+            "5,9",
+            "7,9"
+          ]
+        },
+        {
+          "supportHash": "sha256:74dbcd481250d7ff95058159f118f8f5e1f44f054658e521301eda15ea61aa3f",
+          "parameters": [
+            "2,7",
+            "8,7"
+          ]
+        },
+        {
+          "supportHash": "sha256:80ffaae29e27f2aadde2a4ea1269c228a7ee6ac95893ab21644c013f41550bca",
+          "parameters": [
+            "5,2"
+          ]
+        },
+        {
+          "supportHash": "sha256:83d9ed9c88d0edbd43287d9d42aa9e69eb381894883d934eb442e54077341e6e",
+          "parameters": [
+            "8,1",
+            "8,4"
+          ]
+        },
+        {
+          "supportHash": "sha256:8aa3848a3cb5d729d47dec92c06ed7779a5479d22c7cb10f11ea940bd397908f",
+          "parameters": [
+            "4,1"
+          ]
+        },
+        {
+          "supportHash": "sha256:8bcdf01a1e78b706f2f798981669b36f9643fed29135f6677a1cc67f5b06bd05",
+          "parameters": [
+            "2,4",
+            "5,4"
+          ]
+        },
+        {
+          "supportHash": "sha256:8bd1b91bd88aa21ce994e9561eb99483dc81e66fb35e0a147ba96f594ce3c08c",
+          "parameters": [
+            "2,1",
+            "2,6",
+            "6,9",
+            "7,6"
+          ]
+        },
+        {
+          "supportHash": "sha256:91422e03e160a57af760c3f19883683e9599a5408c4e70e15f51802ddca075ac",
+          "parameters": [
+            "4,6",
+            "5,1",
+            "5,6"
+          ]
+        },
+        {
+          "supportHash": "sha256:961c30dc3683a2e707a73fec960fdfe01936d04c693a0e756649e7aeb6375a2f",
+          "parameters": [
+            "1,1",
+            "3,1",
+            "3,9",
+            "9,9"
+          ]
+        },
+        {
+          "supportHash": "sha256:9bc9117f11292b0ddb73c8cd27373fe86bd78514ccbbadd2b1258a67efb1d06e",
+          "parameters": [
+            "1,9"
+          ]
+        },
+        {
+          "supportHash": "sha256:9ebaa87202b1549235a851fb6bd0428d80b2f748ba320f5bad51fe18bde10749",
+          "parameters": [
+            "1,6",
+            "1,8",
+            "2,2",
+            "2,9",
+            "3,2",
+            "4,5",
+            "7,2",
+            "8,6",
+            "9,2",
+            "9,4"
+          ]
+        },
+        {
+          "supportHash": "sha256:a601308b88d1df352a05eb1eb26195e071f32add78e1ad6cf807eb9f66974d76",
+          "parameters": [
+            "4,8",
+            "7,8"
+          ]
+        },
+        {
+          "supportHash": "sha256:abc12766044f2652f3e789403d974c016e191c899fadf09cdb4aacec05b64e72",
+          "parameters": [
+            "1,7",
+            "9,7"
+          ]
+        },
+        {
+          "supportHash": "sha256:b7540de27d515be286bb5401b500670fc53f698b1dea6a38bfb224e5088c6606",
+          "parameters": [
+            "5,7",
+            "9,3"
+          ]
+        },
+        {
+          "supportHash": "sha256:b80b9e39eacdc9a7b633428952a97ca4debc7cbd740820bae8ef1de2f7cd3976",
+          "parameters": [
+            "9,6"
+          ]
+        },
+        {
+          "supportHash": "sha256:b998ab442b6d12ef3ac0c18cd3f7a86366e3a5ede0590ba640c356f1c44a6abe",
+          "parameters": [
+            "3,5",
+            "5,5"
+          ]
+        },
+        {
+          "supportHash": "sha256:c90bb577ea258b70bd28f2cbfcb2cdb587cace815b02f44bd337272c2eaa81dc",
+          "parameters": [
+            "3,6",
+            "6,6"
+          ]
+        },
+        {
+          "supportHash": "sha256:cabd7dbb2b6afcf22ab6336d157f8c48dcd9c4c0a0a55de8d78bf050f96a0483",
+          "parameters": [
+            "2,8",
+            "3,4",
+            "4,4",
+            "4,9",
+            "8,9",
+            "9,8"
+          ]
+        },
+        {
+          "supportHash": "sha256:cd099878734e26a1031f4311ae77077afc1e0a95b2fbe614edd0100ec0440614",
+          "parameters": [
+            "9,1",
+            "9,5"
+          ]
+        },
+        {
+          "supportHash": "sha256:de11e268222224ba8fc12d8882feedc3bab1a46397230d517cf4ad7d25908227",
+          "parameters": [
+            "6,3"
+          ]
+        }
+      ]
+    },
+    "zeroSecondInference": true
+  },
+  "exactRejectionBoundary": {
+    "exactBoundary": "For fixed X, parameters outside the finite union of emitted tuple-lines have no forbidden support. Equal optima do not imply equal chambers.",
+    "leastEmptyExamples": [
+      "1,6",
+      "1,7",
+      "1,8",
+      "1,9",
+      "1,10",
+      "2,10",
+      "5,9",
+      "6,2",
+      "6,3",
+      "6,5",
+      "6,6",
+      "7,6"
+    ]
+  },
+  "compressedExplanation": "The one-parameter ratio cells become a two-dimensional line arrangement. A tuple is not guessed by search: it writes the exact line on which it exists. Chamber hashes then make parameter equivalence mechanical.",
+  "artifacts": {
+    "transferSeal": "sha256:fba2e6f3a7ea39d797ca7a53d1a0c35d682e0edcf644909b11485208182e5315"
+  },
+  "finishedAt": "2026-07-30T00:49:57.114037+00:00",
+  "resultHash": "sha256:35e833ad198ba827ba0823a2550e241eb0f26e44e031c7e0d43762f7c74c06d4"
+}

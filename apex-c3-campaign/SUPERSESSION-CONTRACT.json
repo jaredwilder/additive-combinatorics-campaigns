@@ -1,0 +1,68 @@
+{
+  "schema": "oracle.apex.supersession-contract.v1",
+  "source": {
+    "path": "C:\\Users\\jared\\Downloads\\ORACLE-APEX-ATTACKS-2026-07-29.docx",
+    "sha256": "270a4d108f43b01adabc7cc746b7679f5d99f77a1f53ce092700a9b65000950b"
+  },
+  "baseline": {
+    "championshipContractHash": "sha256:44885021f9ffef2ea95b4770c389c41f791384d638824f746b757e00bc56e89a",
+    "championshipSummaryHash": "sha256:469e6c9638c52f8f885b1e1bc18e9c1e7179e931a6f87122982ce6fd171a5087",
+    "championshipVerificationHash": "sha256:1c56914d73083a090ffaea7250a0203c3f66414d660fbf26600b84024b88da97",
+    "weirdCampaignHash": "sha256:58298b7e38094c328c7f140247bd378d1097f49e931b656f8348ae8531a832e5",
+    "timestampPriorityRule": "The Weird and Blade Championship receipts predate this APEX compilation and receive discovery priority inside Oracle.",
+    "facts": {
+      "bladeArm": "5/5 theorem receipts, blind transfers, rejection boundaries, and compressed explanations; zero external calls",
+      "digitExponent": 0.5645750340535797,
+      "c5EightPointBirth": {
+        "leastN": 26,
+        "span": 25,
+        "witness": [
+          1,
+          3,
+          9,
+          17,
+          19,
+          22,
+          25,
+          26
+        ],
+        "independentCpSat": {
+          "N25Maximum": 7,
+          "status": "OPTIMAL",
+          "optimizer": "OR-Tools CP-SAT",
+          "seconds": 15.911652088165283
+        }
+      },
+      "leanSpan50": {
+        "status": "FORMALIZATION_WALL",
+        "attemptSeconds": 900,
+        "supportCount": 15560,
+        "receiptHash": "sha256:8952744b89b8fcd12b947ce85a7f9b9939f7a500500431329d722757b6988dcc"
+      }
+    },
+    "baselineHash": "sha256:192e44fa558546996c67a4e8222e73536d93b53a05e961490714e63213d2db18"
+  },
+  "counts": {
+    "attacks": 48,
+    "rankedLaunch": 18,
+    "killshots": 12,
+    "preResolved": 4,
+    "raisedBar": 17,
+    "externalDataGated": 6
+  },
+  "adjudication": {
+    "DUPLICATE_CONTROL": "Already established by baseline authority; zero Apex discovery credit. Independent paths may earn replication credit.",
+    "STRICT_ADVANCE": "Improves a theorem, range, exponent, proof, boundary, or transfer class beyond the bound advance bar.",
+    "ORTHOGONAL_NEW_WIN": "Establishes a genuinely different theorem outside the baseline claim boundary.",
+    "HONEST_NULL_WALL": "Returns a least counterexample, exact rejection region, failed assumption, or certified resource wall."
+  },
+  "victoryRule": "Only STRICT_ADVANCE and ORTHOGONAL_NEW_WIN count as Apex theorem victories. HONEST_NULL_WALL counts as durable RSI but not a theorem victory. DUPLICATE_CONTROL counts only as replication.",
+  "prohibitions": [
+    "no attack-count credit",
+    "no retrospective claim narrowing",
+    "no championship result relabeled as an Apex discovery",
+    "no physical claim before measured calibration",
+    "no historical novelty claim from deterministic proof alone"
+  ],
+  "contractHash": "sha256:cf51f8a7ada393c80e0389c334fe694d100b6a413f09face549394129d276b13"
+}

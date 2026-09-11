@@ -1,0 +1,20 @@
+{
+  "schema": "oracle.apex.adjudication.v1",
+  "contractHash": "sha256:cf51f8a7ada393c80e0389c334fe694d100b6a413f09face549394129d276b13",
+  "baselineHash": "sha256:192e44fa558546996c67a4e8222e73536d93b53a05e961490714e63213d2db18",
+  "attackHash": "sha256:3e8856ffd38714ad8f18d74bf47f9ba5663f1b61371d63c9314c0b447a2cbcb9",
+  "attackId": "APX-004",
+  "classification": "ORTHOGONAL_NEW_WIN",
+  "claim": "Among normalized C3-free 13-sets of span at most 63, there are exactly 6 sets in 4 reflection orbits; exact span counts are {'60': 1, '61': 0, '62': 1, '63': 4}, every span-60 and span-62 birth is reflection-symmetric as recorded by {'60': 1, '61': 0, '62': 1, '63': 0}, and every set is at replacement distance at most 7 from the unique span-60 birth orbit.",
+  "baselineComparison": "The baseline contains the unique span-50 12-set and no complete 13-set near-birth stability census.",
+  "advanceBar": "Close the stated Apex win without reproducing any championship claim as a new discovery.",
+  "evidencePaths": [
+    "state/apex-supersession-20260729/runs/APX-004/EVIDENCE.json",
+    "state/apex-supersession-20260729/runs/APX-004/CLAIM.json"
+  ],
+  "supersessionProof": "Two independent support compilers agree; complete SAT model enumeration closes every normalized 13-set through excess span 3; reflection, distance, and exchange properties are recomputed directly from the complete census.",
+  "exactBoundary": null,
+  "replicationCredit": false,
+  "theoremVictory": true,
+  "receiptHash": "sha256:7b6036f99f2a38121a5835dd452a0b1699e33ae20ea392eb2b94a3df34d42bad"
+}

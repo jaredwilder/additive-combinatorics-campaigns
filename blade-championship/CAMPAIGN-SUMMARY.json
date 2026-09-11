@@ -1,0 +1,52 @@
+{
+  "schema": "oracle.blade-championship.summary.v1",
+  "contractHash": "sha256:44885021f9ffef2ea95b4770c389c41f791384d638824f746b757e00bc56e89a",
+  "results": [
+    {
+      "blade": "geometric-carry-automaton",
+      "resultHash": "sha256:a852b99ebce80cbd4bcb21004551e7005746dc4098d591b9ad6f21e75796dd25"
+    },
+    {
+      "blade": "digit-carry-language-compiler",
+      "resultHash": "sha256:27600a2947e4899069cda4cbad7949f590cf5a31d1a1e887104d35022584823d"
+    },
+    {
+      "blade": "gap-birth-cnf-compiler",
+      "resultHash": "sha256:41ad8e8832e085b1694400102302bcab9fa38623740795850181c691c123b8de"
+    },
+    {
+      "blade": "parameter-cell-compiler",
+      "resultHash": "sha256:35e833ad198ba827ba0823a2550e241eb0f26e44e031c7e0d43762f7c74c06d4"
+    },
+    {
+      "blade": "coefficient-subset-gluing-theorem",
+      "resultHash": "sha256:7038257a5db3d7d86665c98655be6b7486ff73732509cdb52f9615ec82dd1a85"
+    }
+  ],
+  "scoreboard": {
+    "blades": 5,
+    "newTheorems": 5,
+    "blindTransfers": 5,
+    "exactRejectionBoundaries": 5,
+    "compressedExplanations": 5,
+    "externalCalls": 0,
+    "externalCostUsd": 0.0,
+    "bladeHashesUnchanged": true,
+    "passedBankedArm": true,
+    "scoreHash": "sha256:2318e45e3e8e5d610c781b2ee2cb4d525407ac4f7069ed5972062636cdc03f6c"
+  },
+  "leanTrack": "FORMALIZATION_WALL",
+  "verificationHash": "sha256:1c56914d73083a090ffaea7250a0203c3f66414d660fbf26600b84024b88da97",
+  "bankedTechniqueIds": [
+    "T-CHAMP-COEFFICIENT-SUBSET-GLUING-THEOREM",
+    "T-CHAMP-DIGIT-CARRY-LANGUAGE-COMPILER",
+    "T-CHAMP-GAP-BIRTH-CNF-COMPILER",
+    "T-CHAMP-GEOMETRIC-CARRY-AUTOMATON",
+    "T-CHAMP-PARAMETER-CELL-COMPILER",
+    "T-CHAMP-LEAN-SPAN50-WALL"
+  ],
+  "negativeAtlasHash": "sha256:100e336d2ab0918dc4c4d36e90a8271e0607c4b793b6350324456611efbd03a7",
+  "status": "COMPLETED_BANKED_ARM_WITH_LEAN_RESOURCE_WALL",
+  "leanReceiptHash": "sha256:8952744b89b8fcd12b947ce85a7f9b9939f7a500500431329d722757b6988dcc",
+  "summaryHash": "sha256:469e6c9638c52f8f885b1e1bc18e9c1e7179e931a6f87122982ce6fd171a5087"
+}

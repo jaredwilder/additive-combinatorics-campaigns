@@ -1,0 +1,240 @@
+{
+  "schema": "oracle.blade-championship.result.v1",
+  "blade": "gap-birth-cnf-compiler",
+  "bladeHashBefore": "sha256:92b103a11fec9c166ea4c7dd96efa18eec4f05b17d988fff9ce92d7020d07690",
+  "bladeHashAfter": "sha256:92b103a11fec9c166ea4c7dd96efa18eec4f05b17d988fff9ce92d7020d07690",
+  "externalTheoryCalls": 0,
+  "manualRetuningAfterSeal": false,
+  "newTheorem": {
+    "coefficients": [
+      1,
+      -5,
+      10,
+      -10,
+      5,
+      -1
+    ],
+    "cardinality": 8,
+    "leastN": 26,
+    "minimumSpan": 25,
+    "witness": [
+      1,
+      3,
+      9,
+      17,
+      19,
+      22,
+      25,
+      26
+    ],
+    "lowerRows": [
+      {
+        "n": 22,
+        "cardinality": 8,
+        "sat": false,
+        "witness": [],
+        "supportCount": 43904,
+        "cnfHash": "sha256:79391c8fc3de0570e4340c7619a9df06801f12f1f8e399e4b65e7b6f7dfc90e5",
+        "solver": "PySAT Glucose4"
+      },
+      {
+        "n": 23,
+        "cardinality": 8,
+        "sat": false,
+        "witness": [],
+        "supportCount": 58167,
+        "cnfHash": "sha256:ed501f9de4c3a327b807f8eb14a2b613be9cd4a645a42dbfaafce6e5d3eeba44",
+        "solver": "PySAT Glucose4"
+      },
+      {
+        "n": 24,
+        "cardinality": 8,
+        "sat": false,
+        "witness": [],
+        "supportCount": 75863,
+        "cnfHash": "sha256:6b73bcb0e5e8740060886e2db0db4dbdcfc87be878326240e19001364dc81ad1",
+        "solver": "PySAT Glucose4"
+      },
+      {
+        "n": 25,
+        "cardinality": 8,
+        "sat": false,
+        "witness": [],
+        "supportCount": 97340,
+        "cnfHash": "sha256:880c200299badde3e4177e29b9b4262578faa4b9465004f0c51ce236a9b4ad3d",
+        "solver": "PySAT Glucose4"
+      }
+    ],
+    "upperRow": {
+      "n": 26,
+      "cardinality": 8,
+      "sat": true,
+      "witness": [
+        1,
+        3,
+        9,
+        17,
+        19,
+        22,
+        25,
+        26
+      ],
+      "supportCount": 125175,
+      "cnfHash": "sha256:4279e47b1683ae4357b6bfaf78ba1d6e71115ba0834cb7cb41b1ba69d8a358c4",
+      "solver": "PySAT Glucose4"
+    },
+    "statement": "The minimum span of an eight-element C5-free integer set is exactly 25; equivalently the first normalized birth occurs on [26]."
+  },
+  "blindTransfer": {
+    "coefficients": [
+      1,
+      -4,
+      2,
+      1
+    ],
+    "cardinality": 8,
+    "leastN": 15,
+    "minimumSpan": 14,
+    "witness": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      13,
+      14,
+      15
+    ],
+    "lowerRows": [
+      {
+        "n": 8,
+        "cardinality": 8,
+        "sat": false,
+        "witness": [],
+        "supportCount": 11,
+        "cnfHash": "sha256:9e7a902cc6da559ced30df8d44156bfdaeaac60fa573e402341300edc3cec48a",
+        "solver": "PySAT Glucose4"
+      },
+      {
+        "n": 9,
+        "cardinality": 8,
+        "sat": false,
+        "witness": [],
+        "supportCount": 22,
+        "cnfHash": "sha256:915eb168d1bff1640209296445ba4bad2c15c0c94cc06d6922c19175cbb312d4",
+        "solver": "PySAT Glucose4"
+      },
+      {
+        "n": 10,
+        "cardinality": 8,
+        "sat": false,
+        "witness": [],
+        "supportCount": 35,
+        "cnfHash": "sha256:90cc15545513147ade2e8cd1421e7b41b38a687bb32c8f23021ac45726a809fc",
+        "solver": "PySAT Glucose4"
+      },
+      {
+        "n": 11,
+        "cardinality": 8,
+        "sat": false,
+        "witness": [],
+        "supportCount": 55,
+        "cnfHash": "sha256:c45a75ce21065e49c62e815fe8d61cda810801460074fb0aa1857208bce6e9f1",
+        "solver": "PySAT Glucose4"
+      },
+      {
+        "n": 12,
+        "cardinality": 8,
+        "sat": false,
+        "witness": [],
+        "supportCount": 81,
+        "cnfHash": "sha256:d3a3e431dcf4d79fcbfd86cf1fe33770291a9edc82d9adace3f5bbaffe30eb6f",
+        "solver": "PySAT Glucose4"
+      },
+      {
+        "n": 13,
+        "cardinality": 8,
+        "sat": false,
+        "witness": [],
+        "supportCount": 113,
+        "cnfHash": "sha256:96f1174842e953b8460528dc32fb656f98f64d148787486eebe8a9fa0260b4cb",
+        "solver": "PySAT Glucose4"
+      },
+      {
+        "n": 14,
+        "cardinality": 8,
+        "sat": false,
+        "witness": [],
+        "supportCount": 151,
+        "cnfHash": "sha256:e954ebf9413530687585b77ba4595d223753c90145396d40e447930999be9df0",
+        "solver": "PySAT Glucose4"
+      }
+    ],
+    "upperRow": {
+      "n": 15,
+      "cardinality": 8,
+      "sat": true,
+      "witness": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        13,
+        14,
+        15
+      ],
+      "supportCount": 199,
+      "cnfHash": "sha256:39825a92a82e0571d0f79b1875ecf2e76188f5f4bf7313704851b406152c1da8",
+      "solver": "PySAT Glucose4"
+    },
+    "seal": {
+      "tag": "gap-birth-blind-transfer",
+      "pool": [
+        {
+          "coefficients": [
+            1,
+            -4,
+            2,
+            1
+          ],
+          "k": 8
+        },
+        {
+          "coefficients": [
+            1,
+            -5,
+            3,
+            1
+          ],
+          "k": 8
+        }
+      ],
+      "rule": "sha256 modulo canonical pool length",
+      "sealHash": "sha256:cac6370f4c007834ae9bb3424b37ce0a06112b18f3fa0c609459ca9ea1d3f8b0",
+      "selectedIndex": 0,
+      "selected": {
+        "coefficients": [
+          1,
+          -4,
+          2,
+          1
+        ],
+        "k": 8
+      }
+    },
+    "zeroSecondInference": true
+  },
+  "exactRejectionBoundary": {
+    "scope": "direct normalized support-CNF births",
+    "boundary": "C5 N=22..25 are UNSAT and N=26 is SAT; attempts beyond the first SAT are rejected as redundant",
+    "leastRejectedLowerN": 25,
+    "firstAcceptedN": 26
+  },
+  "compressedExplanation": "Split the six C5 coefficients into two triples, hash equal partial sums, and emit only disjoint six-point supports. The same frozen CNF birth compiler then proves four consecutive lower failures and verifies the first witness.",
+  "artifacts": {
+    "transferSeal": "sha256:cac6370f4c007834ae9bb3424b37ce0a06112b18f3fa0c609459ca9ea1d3f8b0"
+  },
+  "finishedAt": "2026-07-30T00:49:57.073432+00:00",
+  "resultHash": "sha256:41ad8e8832e085b1694400102302bcab9fa38623740795850181c691c123b8de"
+}

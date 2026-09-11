@@ -1,0 +1,24 @@
+{
+  "schema": "oracle.apex.claim.v1",
+  "attackId": "APX-001",
+  "statement": "The minimum span of a 13-element C3-free integer set is exactly 60; equivalently its first normalized birth is [1,61].",
+  "witness": [
+    1,
+    2,
+    3,
+    14,
+    19,
+    30,
+    31,
+    32,
+    43,
+    48,
+    59,
+    60,
+    61
+  ],
+  "predictionCorrect": false,
+  "predictionDiagnosis": "sealed endpoint-extension model overestimated the first birth by 25 coordinates",
+  "historicalNoveltyClaimed": false,
+  "claimHash": "sha256:a362ee1ccd30d91c5cbe38848b47d11e9c2f8dde6b34e1985c0470cf81ab0024"
+}

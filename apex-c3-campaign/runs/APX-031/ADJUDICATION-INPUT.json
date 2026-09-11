@@ -1,0 +1,15 @@
+{
+  "attackId": "APX-031",
+  "classification": "HONEST_NULL_WALL",
+  "claim": "The exact C3 span-50 UNSAT certificate is independently verified, but APX-031 is not Lean-closed inside the 900-second kernel envelope.",
+  "evidencePaths": [
+    "state/apex-supersession-20260729/runs/APX-031/INFORMED-CLOSE-PILOT-RECEIPT.json",
+    "state/apex-supersession-20260729/runs/APX-031/informed-close-ladder/COMPACT-SEMANTICS-RECEIPT.json",
+    "state/apex-supersession-20260729/runs/APX-031/sat-certificate/SAT-RECEIPT.json"
+  ],
+  "independentVerifierPassed": true,
+  "independentExecutionPath": true,
+  "baselineComparison": "The timestamp baseline already records a 900-second bv_decide wall. This pilot independently verified a full and trimmed LRAT certificate, localized the remaining kernel reconstruction wall, and did not claim theorem closure.",
+  "exactBoundary": "Exact 15,560-support semantics and the 506-variable, 16,446-clause UNSAT certificate pass standalone CaDiCaL, DRAT-trim, and lrat-check. Compact bv_decide and full 105,582,813-byte LRAT Lean reconstruction each time out at 904 seconds. Backward trimming retains 447,254 of 531,562 lemmas and yields 98,504,857 bytes, so the next valid Lean attack requires structural compression or a materially smaller proof DAG.",
+  "supersessionProof": "This is a certified resource-wall advance only: it separates source elaboration, semantic equivalence, SAT truth, external certificate validity, and Lean proof reconstruction, and banks the exact dominated architectures without asserting a Lean theorem."
+}

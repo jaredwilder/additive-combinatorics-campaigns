@@ -1,0 +1,12 @@
+{
+  "blades": 5,
+  "newTheorems": 5,
+  "blindTransfers": 5,
+  "exactRejectionBoundaries": 5,
+  "compressedExplanations": 5,
+  "externalCalls": 0,
+  "externalCostUsd": 0.0,
+  "bladeHashesUnchanged": true,
+  "passedBankedArm": true,
+  "scoreHash": "sha256:2318e45e3e8e5d610c781b2ee2cb4d525407ac4f7069ed5972062636cdc03f6c"
+}

@@ -1,0 +1,4 @@
+C3Span50IncrementalLRAT.lean:9:3: error: cannot compute parent directory of `C3Span50IncrementalLRAT.lean`
+C3Span50IncrementalLRAT.lean:8:0: error: cannot evaluate code because 'sorryAx' uses 'sorry' and/or contains errors
+C3Span50IncrementalLRAT.lean:12:7: error(lean.unknownIdentifier): Unknown identifier `c3Span50UnsatIncremental`
+C3Span50IncrementalLRAT.lean:13:14: error(lean.unknownIdentifier): Unknown constant `c3Span50UnsatIncremental`

@@ -1,0 +1,16 @@
+{
+  "round": 1,
+  "strategy": "finite_decomposition",
+  "model": "google/gemini-3.1-pro-preview",
+  "status": "PROPOSAL_REJECTED",
+  "source": null,
+  "sourceHash": null,
+  "test": {
+    "status": "PROPOSAL_REJECTED",
+    "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+  },
+  "usage": {},
+  "costUsd": null,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "completedAt": "2026-07-30T01:26:05.618528+00:00"
+}

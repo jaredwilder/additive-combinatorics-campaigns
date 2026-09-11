@@ -1,0 +1,5360 @@
+{
+  "schema": "oracle.blade-championship.result.v1",
+  "blade": "digit-carry-language-compiler",
+  "bladeHashBefore": "sha256:579ac8d4270b5452308a01fb491e75df7079a3adc0ed743586434bcb426b9961",
+  "bladeHashAfter": "sha256:579ac8d4270b5452308a01fb491e75df7079a3adc0ed743586434bcb426b9961",
+  "externalTheoryCalls": 0,
+  "manualRetuningAfterSeal": false,
+  "newTheorem": {
+    "statement": "For every m, base-7 integers using digits [0, 1, 2] form a pairwise-distinct [1,-3,2]-free set of size 3^m below 7^m; hence exponent log_7(3)=0.564575034054>1/2.",
+    "winner": {
+      "base": 7,
+      "maxCardinality": 3,
+      "alphabet": [
+        0,
+        1,
+        2
+      ],
+      "exhaustiveUpToTranslation": true,
+      "rejectingCertificates": [
+        {
+          "coefficients": [
+            1,
+            -3,
+            2
+          ],
+          "safe": true,
+          "leastDigits": null,
+          "numbersByCoefficient": null,
+          "statesVisited": 1
+        }
+      ],
+      "sampleLargerAlphabetFailures": [
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                2,
+                3
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  2,
+                  3
+                ]
+              ],
+              "statesVisited": 2
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                2,
+                3
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  2,
+                  3
+                ]
+              ],
+              "statesVisited": 2
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                2,
+                3
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  2,
+                  3
+                ]
+              ],
+              "statesVisited": 1
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                2,
+                3
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  2,
+                  3
+                ]
+              ],
+              "statesVisited": 2
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                4,
+                6
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  4,
+                  6
+                ]
+              ],
+              "statesVisited": 2
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                4,
+                6
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  4,
+                  6
+                ]
+              ],
+              "statesVisited": 3
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                2,
+                3
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  2,
+                  3
+                ]
+              ],
+              "statesVisited": 1
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                2,
+                3
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  2,
+                  3
+                ]
+              ],
+              "statesVisited": 1
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                2,
+                3
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  2,
+                  3
+                ]
+              ],
+              "statesVisited": 2
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                2,
+                3
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  2,
+                  3
+                ]
+              ],
+              "statesVisited": 1
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                2,
+                4,
+                5
+              ],
+              "digitsLowToHigh": [
+                [
+                  2,
+                  4,
+                  5
+                ]
+              ],
+              "statesVisited": 4
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                -3,
+                2
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                4,
+                6
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  4,
+                  6
+                ]
+              ],
+              "statesVisited": 1
+            }
+          ]
+        }
+      ],
+      "densityExponent": 0.5645750340535797
+    },
+    "proof": "The all-length digit/carry product has no accepting state. Word counting gives |D|^m and the magnitude bound B^m."
+  },
+  "blindTransfer": {
+    "seal": {
+      "tag": "digit-blind-transfer",
+      "pool": [
+        {
+          "coefficients": [
+            1,
+            -4,
+            3
+          ]
+        },
+        {
+          "coefficients": [
+            2,
+            -3,
+            1
+          ]
+        },
+        {
+          "coefficients": [
+            1,
+            2,
+            -3
+          ]
+        }
+      ],
+      "rule": "sha256 modulo canonical pool length",
+      "sealHash": "sha256:11c442be3abdb9070ac4f9acc44a97d88a9833e90e943435028a3220811e1be7",
+      "selectedIndex": 2,
+      "selected": {
+        "coefficients": [
+          1,
+          2,
+          -3
+        ]
+      }
+    },
+    "winner": {
+      "base": 7,
+      "maxCardinality": 3,
+      "alphabet": [
+        0,
+        1,
+        2
+      ],
+      "exhaustiveUpToTranslation": true,
+      "rejectingCertificates": [
+        {
+          "coefficients": [
+            1,
+            2,
+            -3
+          ],
+          "safe": true,
+          "leastDigits": null,
+          "numbersByCoefficient": null,
+          "statesVisited": 1
+        }
+      ],
+      "sampleLargerAlphabetFailures": [
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                3,
+                2
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  3,
+                  2
+                ]
+              ],
+              "statesVisited": 3
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                3,
+                2
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  3,
+                  2
+                ]
+              ],
+              "statesVisited": 2
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                3,
+                2
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  3,
+                  2
+                ]
+              ],
+              "statesVisited": 3
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                3,
+                2
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  3,
+                  2
+                ]
+              ],
+              "statesVisited": 3
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                6,
+                4
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  6,
+                  4
+                ]
+              ],
+              "statesVisited": 4
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                6,
+                4
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  6,
+                  4
+                ]
+              ],
+              "statesVisited": 3
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                3,
+                2
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  3,
+                  2
+                ]
+              ],
+              "statesVisited": 2
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                3,
+                2
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  3,
+                  2
+                ]
+              ],
+              "statesVisited": 2
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                3,
+                2
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  3,
+                  2
+                ]
+              ],
+              "statesVisited": 2
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            3,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                3,
+                2
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  3,
+                  2
+                ]
+              ],
+              "statesVisited": 3
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                2,
+                5,
+                4
+              ],
+              "digitsLowToHigh": [
+                [
+                  2,
+                  5,
+                  4
+                ]
+              ],
+              "statesVisited": 4
+            }
+          ]
+        },
+        {
+          "alphabet": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ],
+          "checks": [
+            {
+              "coefficients": [
+                1,
+                2,
+                -3
+              ],
+              "safe": false,
+              "leastDigits": 1,
+              "numbersByCoefficient": [
+                0,
+                6,
+                4
+              ],
+              "digitsLowToHigh": [
+                [
+                  0,
+                  6,
+                  4
+                ]
+              ],
+              "statesVisited": 2
+            }
+          ]
+        }
+      ],
+      "densityExponent": 0.5645750340535797
+    },
+    "coefficients": [
+      1,
+      2,
+      -3
+    ],
+    "zeroSecondInference": true
+  },
+  "exactRejectionBoundary": {
+    "scope": "memoryless fixed-digit alphabets, bases 3..16, normalized to contain 0",
+    "result": "no exponent >1/2 found; base 9 size 3 attains exactly 1/2",
+    "atlas": [
+      {
+        "base": 3,
+        "maxCardinality": 1,
+        "alphabet": [
+          0
+        ],
+        "exhaustiveUpToTranslation": true,
+        "rejectingCertificates": [
+          {
+            "coefficients": [
+              1,
+              -3,
+              3,
+              -1
+            ],
+            "safe": true,
+            "leastDigits": null,
+            "numbersByCoefficient": null,
+            "statesVisited": 1
+          }
+        ],
+        "sampleLargerAlphabetFailures": [
+          {
+            "alphabet": [
+              0,
+              1,
+              2
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  6,
+                  7,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    2,
+                    2,
+                    1
+                  ]
+                ],
+                "statesVisited": 22
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 3,
+                "numbersByCoefficient": [
+                  0,
+                  9,
+                  10,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                ],
+                "statesVisited": 21
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 3,
+                "numbersByCoefficient": [
+                  0,
+                  18,
+                  20,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ],
+                  [
+                    0,
+                    2,
+                    2,
+                    0
+                  ]
+                ],
+                "statesVisited": 21
+              }
+            ]
+          }
+        ],
+        "densityExponent": 0.0
+      },
+      {
+        "base": 4,
+        "maxCardinality": 1,
+        "alphabet": [
+          0
+        ],
+        "exhaustiveUpToTranslation": true,
+        "rejectingCertificates": [
+          {
+            "coefficients": [
+              1,
+              -3,
+              3,
+              -1
+            ],
+            "safe": true,
+            "leastDigits": null,
+            "numbersByCoefficient": null,
+            "statesVisited": 1
+          }
+        ],
+        "sampleLargerAlphabetFailures": [
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  8,
+                  10,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    2,
+                    2
+                  ],
+                  [
+                    0,
+                    2,
+                    2,
+                    1
+                  ]
+                ],
+                "statesVisited": 16
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  4,
+                  5,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    1,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                ],
+                "statesVisited": 15
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2,
+              3
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  8,
+                  0,
+                  2,
+                  14
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    2,
+                    2
+                  ],
+                  [
+                    2,
+                    0,
+                    0,
+                    3
+                  ]
+                ],
+                "statesVisited": 20
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 3,
+                "numbersByCoefficient": [
+                  16,
+                  5,
+                  0,
+                  1
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "statesVisited": 12
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 3,
+                "numbersByCoefficient": [
+                  32,
+                  10,
+                  0,
+                  2
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    0,
+                    2
+                  ],
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "statesVisited": 20
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              3
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 3,
+                "numbersByCoefficient": [
+                  48,
+                  15,
+                  0,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    3,
+                    0,
+                    3
+                  ],
+                  [
+                    0,
+                    3,
+                    0,
+                    0
+                  ],
+                  [
+                    3,
+                    0,
+                    0,
+                    0
+                  ]
+                ],
+                "statesVisited": 12
+              }
+            ]
+          }
+        ],
+        "densityExponent": 0.0
+      },
+      {
+        "base": 5,
+        "maxCardinality": 2,
+        "alphabet": [
+          0,
+          1
+        ],
+        "exhaustiveUpToTranslation": true,
+        "rejectingCertificates": [
+          {
+            "coefficients": [
+              1,
+              -3,
+              3,
+              -1
+            ],
+            "safe": true,
+            "leastDigits": null,
+            "numbersByCoefficient": null,
+            "statesVisited": 2
+          }
+        ],
+        "sampleLargerAlphabetFailures": [
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 5
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  5,
+                  7,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    2,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                "statesVisited": 26
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  5,
+                  6,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    1,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                ],
+                "statesVisited": 28
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2,
+              3,
+              4
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  10,
+                  18,
+                  24
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    4
+                  ]
+                ],
+                "statesVisited": 26
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  5,
+                  7,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    2,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                "statesVisited": 11
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  5,
+                  6,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    1,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                ],
+                "statesVisited": 10
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              4
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  5,
+                  1,
+                  6,
+                  20
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    1,
+                    4
+                  ]
+                ],
+                "statesVisited": 12
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2,
+              3
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  12,
+                  17,
+                  15
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    2,
+                    0
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    3
+                  ]
+                ],
+                "statesVisited": 10
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2,
+              4
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  10,
+                  14,
+                  12
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    4,
+                    2
+                  ],
+                  [
+                    0,
+                    2,
+                    2,
+                    2
+                  ]
+                ],
+                "statesVisited": 11
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              3,
+              4
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  15,
+                  23,
+                  24
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    4
+                  ]
+                ],
+                "statesVisited": 11
+              }
+            ]
+          }
+        ],
+        "densityExponent": 0.43067655807339306
+      },
+      {
+        "base": 6,
+        "maxCardinality": 2,
+        "alphabet": [
+          0,
+          1
+        ],
+        "exhaustiveUpToTranslation": true,
+        "rejectingCertificates": [
+          {
+            "coefficients": [
+              1,
+              -3,
+              3,
+              -1
+            ],
+            "safe": true,
+            "leastDigits": null,
+            "numbersByCoefficient": null,
+            "statesVisited": 2
+          }
+        ],
+        "sampleLargerAlphabetFailures": [
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              4,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  2,
+                  0,
+                  1,
+                  5
+                ],
+                "digitsLowToHigh": [
+                  [
+                    2,
+                    0,
+                    1,
+                    5
+                  ]
+                ],
+                "statesVisited": 22
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3,
+              4,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  4,
+                  5,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    4,
+                    5,
+                    3
+                  ]
+                ],
+                "statesVisited": 16
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2,
+              3,
+              4,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  4,
+                  5,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    4,
+                    5,
+                    3
+                  ]
+                ],
+                "statesVisited": 16
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  6,
+                  14,
+                  24
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ]
+                ],
+                "statesVisited": 29
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  2,
+                  0,
+                  1,
+                  5
+                ],
+                "digitsLowToHigh": [
+                  [
+                    2,
+                    0,
+                    1,
+                    5
+                  ]
+                ],
+                "statesVisited": 10
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  6,
+                  7,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    1,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                ],
+                "statesVisited": 35
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  6,
+                  7,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    1,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                ],
+                "statesVisited": 28
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              4,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 2,
+                "numbersByCoefficient": [
+                  0,
+                  24,
+                  34,
+                  30
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    0,
+                    4,
+                    0
+                  ],
+                  [
+                    0,
+                    4,
+                    5,
+                    5
+                  ]
+                ],
+                "statesVisited": 26
+              }
+            ]
+          }
+        ],
+        "densityExponent": 0.3868528072345416
+      },
+      {
+        "base": 7,
+        "maxCardinality": 2,
+        "alphabet": [
+          0,
+          1
+        ],
+        "exhaustiveUpToTranslation": true,
+        "rejectingCertificates": [
+          {
+            "coefficients": [
+              1,
+              -3,
+              3,
+              -1
+            ],
+            "safe": true,
+            "leastDigits": null,
+            "numbersByCoefficient": null,
+            "statesVisited": 2
+          }
+        ],
+        "sampleLargerAlphabetFailures": [
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 5
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  2,
+                  4,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    4,
+                    6
+                  ]
+                ],
+                "statesVisited": 10
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  3,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    3,
+                    6
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  2,
+                  4,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    4,
+                    6
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 5
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 5
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 4
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              4,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  2,
+                  0,
+                  1,
+                  5
+                ],
+                "digitsLowToHigh": [
+                  [
+                    2,
+                    0,
+                    1,
+                    5
+                  ]
+                ],
+                "statesVisited": 20
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              4,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  2,
+                  4,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    4,
+                    6
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          }
+        ],
+        "densityExponent": 0.3562071871080222
+      },
+      {
+        "base": 8,
+        "maxCardinality": 2,
+        "alphabet": [
+          0,
+          1
+        ],
+        "exhaustiveUpToTranslation": true,
+        "rejectingCertificates": [
+          {
+            "coefficients": [
+              1,
+              -3,
+              3,
+              -1
+            ],
+            "safe": true,
+            "leastDigits": null,
+            "numbersByCoefficient": null,
+            "statesVisited": 2
+          }
+        ],
+        "sampleLargerAlphabetFailures": [
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  2,
+                  4,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    4,
+                    6
+                  ]
+                ],
+                "statesVisited": 12
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  3,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    3,
+                    6
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  2,
+                  4,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    4,
+                    6
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              7
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 5
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          }
+        ],
+        "densityExponent": 0.33333333333333337
+      },
+      {
+        "base": 9,
+        "maxCardinality": 3,
+        "alphabet": [
+          0,
+          1,
+          2
+        ],
+        "exhaustiveUpToTranslation": true,
+        "rejectingCertificates": [
+          {
+            "coefficients": [
+              1,
+              -3,
+              3,
+              -1
+            ],
+            "safe": true,
+            "leastDigits": null,
+            "numbersByCoefficient": null,
+            "statesVisited": 2
+          }
+        ],
+        "sampleLargerAlphabetFailures": [
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  2,
+                  4,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    4,
+                    6
+                  ]
+                ],
+                "statesVisited": 11
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  3,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    3,
+                    6
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  2,
+                  4,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    4,
+                    6
+                  ]
+                ],
+                "statesVisited": 9
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 5
+              }
+            ]
+          }
+        ],
+        "densityExponent": 0.5
+      },
+      {
+        "base": 10,
+        "maxCardinality": 3,
+        "alphabet": [
+          0,
+          1,
+          2
+        ],
+        "exhaustiveUpToTranslation": true,
+        "rejectingCertificates": [
+          {
+            "coefficients": [
+              1,
+              -3,
+              3,
+              -1
+            ],
+            "safe": true,
+            "leastDigits": null,
+            "numbersByCoefficient": null,
+            "statesVisited": 2
+          }
+        ],
+        "sampleLargerAlphabetFailures": [
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  4,
+                  9
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    4,
+                    9
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  3,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    3,
+                    6
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  2,
+                  4,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    4,
+                    6
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          }
+        ],
+        "densityExponent": 0.47712125471966244
+      },
+      {
+        "base": 11,
+        "maxCardinality": 3,
+        "alphabet": [
+          0,
+          1,
+          2
+        ],
+        "exhaustiveUpToTranslation": true,
+        "rejectingCertificates": [
+          {
+            "coefficients": [
+              1,
+              -3,
+              3,
+              -1
+            ],
+            "safe": true,
+            "leastDigits": null,
+            "numbersByCoefficient": null,
+            "statesVisited": 2
+          }
+        ],
+        "sampleLargerAlphabetFailures": [
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9,
+              10
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 5
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  4,
+                  9
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    4,
+                    9
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  3,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    3,
+                    6
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  2,
+                  4,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    4,
+                    6
+                  ]
+                ],
+                "statesVisited": 7
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 6
+              }
+            ]
+          }
+        ],
+        "densityExponent": 0.45815690999132624
+      },
+      {
+        "base": 12,
+        "maxCardinality": 3,
+        "alphabet": [
+          0,
+          1,
+          2
+        ],
+        "exhaustiveUpToTranslation": true,
+        "rejectingCertificates": [
+          {
+            "coefficients": [
+              1,
+              -3,
+              3,
+              -1
+            ],
+            "safe": true,
+            "leastDigits": null,
+            "numbersByCoefficient": null,
+            "statesVisited": 2
+          }
+        ],
+        "sampleLargerAlphabetFailures": [
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 9
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 9
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 9
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              11
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10,
+              11
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 9
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 9
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  2,
+                  3
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "statesVisited": 8
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  4,
+                  9
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    4,
+                    9
+                  ]
+                ],
+                "statesVisited": 9
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  1,
+                  3,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    1,
+                    3,
+                    6
+                  ]
+                ],
+                "statesVisited": 9
+              }
+            ]
+          },
+          {
+            "alphabet": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "checks": [
+              {
+                "coefficients": [
+                  1,
+                  -3,
+                  3,
+                  -1
+                ],
+                "safe": false,
+                "leastDigits": 1,
+                "numbersByCoefficient": [
+                  0,
+                  2,
+                  4,
+                  6
+                ],
+                "digitsLowToHigh": [
+                  [
+                    0,
+                    2,
+                    4,
+                    6
+                  ]
+                ],
+                "statesVisited": 10
+              }
+            ]
+          }
+        ],
+        "densityExponent": 0.4421141086977403
+      },
+      {
+        "base": 13,
+        "thresholdCardinality": 4,
+        "safeAlphabetFound": null,
+        "testedNormalizedAlphabets": 220,
+        "exactAtThreshold": true
+      },
+      {
+        "base": 14,
+        "thresholdCardinality": 4,
+        "safeAlphabetFound": null,
+        "testedNormalizedAlphabets": 286,
+        "exactAtThreshold": true
+      },
+      {
+        "base": 15,
+        "thresholdCardinality": 4,
+        "safeAlphabetFound": null,
+        "testedNormalizedAlphabets": 364,
+        "exactAtThreshold": true
+      },
+      {
+        "base": 16,
+        "thresholdCardinality": 5,
+        "safeAlphabetFound": null,
+        "testedNormalizedAlphabets": 1365,
+        "exactAtThreshold": true
+      }
+    ],
+    "notClaimed": "global impossibility for arbitrary finite-state languages"
+  },
+  "compressedExplanation": "The compiler did beat 1/2—on a new compatible three-variable relation. On C3 itself it refused to manufacture a gain: the exact declared memoryless search class still tops out at the already banked square-root construction.",
+  "artifacts": {
+    "theoremAtlasHash": "sha256:e7fb8d00047252d534c94f7d4d3f468dd29e9f229f0eef056a34170ae122e64a",
+    "transferSeal": "sha256:11c442be3abdb9070ac4f9acc44a97d88a9833e90e943435028a3220811e1be7"
+  },
+  "finishedAt": "2026-07-30T00:49:49.545033+00:00",
+  "resultHash": "sha256:27600a2947e4899069cda4cbad7949f590cf5a31d1a1e887104d35022584823d"
+}

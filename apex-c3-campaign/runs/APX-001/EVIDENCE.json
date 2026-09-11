@@ -1,0 +1,190 @@
+{
+  "schema": "oracle.apex.apx001-evidence.v1",
+  "predictionSealHash": "sha256:51c6f27b77f92e045a22bea4c429a6c847d84528cf2eb584c1fd3f57de0a9602",
+  "predictedLeastN": 86,
+  "actualLeastN": 61,
+  "actualMinimumSpan": 60,
+  "predictionCorrect": false,
+  "witness": [
+    1,
+    2,
+    3,
+    14,
+    19,
+    30,
+    31,
+    32,
+    43,
+    48,
+    59,
+    60,
+    61
+  ],
+  "binarySearchRows": [
+    {
+      "n": 68,
+      "k": 13,
+      "sat": true,
+      "witness": [
+        1,
+        2,
+        10,
+        16,
+        22,
+        30,
+        31,
+        39,
+        45,
+        51,
+        59,
+        60,
+        68
+      ],
+      "supportCount": 41031,
+      "clauseCount": 42420,
+      "cnfHash": "sha256:10b9aff1b6dcfeb6a0205088298aaf53a211ae4249f10caaca83805b741cfd39",
+      "solver": "PySAT Glucose4",
+      "seconds": 0.5428460000039195
+    },
+    {
+      "n": 59,
+      "k": 13,
+      "sat": false,
+      "witness": [],
+      "supportCount": 26273,
+      "clauseCount": 27437,
+      "cnfHash": "sha256:5fa336b4eb7443746a8308e20dca616073173621d39fb5ca69f0a2b659c0fa4b",
+      "solver": "PySAT Glucose4",
+      "seconds": 8.892149200000858
+    },
+    {
+      "n": 63,
+      "k": 13,
+      "sat": true,
+      "witness": [
+        1,
+        2,
+        3,
+        14,
+        19,
+        30,
+        31,
+        32,
+        43,
+        48,
+        59,
+        60,
+        61
+      ],
+      "supportCount": 32280,
+      "clauseCount": 33544,
+      "cnfHash": "sha256:e951e9d0c1111784062ce63ef3bbfbfb0465c30df876b2b507a3181d49877ca8",
+      "solver": "PySAT Glucose4",
+      "seconds": 1.988716400002886
+    },
+    {
+      "n": 61,
+      "k": 13,
+      "sat": true,
+      "witness": [
+        1,
+        2,
+        3,
+        14,
+        19,
+        30,
+        31,
+        32,
+        43,
+        48,
+        59,
+        60,
+        61
+      ],
+      "supportCount": 29180,
+      "clauseCount": 30394,
+      "cnfHash": "sha256:cedcaef075f711e1fa0567e6c205a1a795a87f93d6941d22330105e68fa27767",
+      "solver": "PySAT Glucose4",
+      "seconds": 3.5925911999947857
+    },
+    {
+      "n": 60,
+      "k": 13,
+      "sat": false,
+      "witness": [],
+      "supportCount": 27690,
+      "clauseCount": 28879,
+      "cnfHash": "sha256:cf93de2e5a96d6acbb4f65a18b1f62b4bfff7be5378c33b1e2685e9096226484",
+      "solver": "PySAT Glucose4",
+      "seconds": 19.98503360000177
+    }
+  ],
+  "lowerBoundary": {
+    "n": 60,
+    "k": 13,
+    "sat": false,
+    "witness": [],
+    "supportCount": 27690,
+    "clauseCount": 28879,
+    "cnfHash": "sha256:cf93de2e5a96d6acbb4f65a18b1f62b4bfff7be5378c33b1e2685e9096226484",
+    "solver": "PySAT Glucose4",
+    "seconds": 16.711029099998996
+  },
+  "upperBoundary": {
+    "n": 61,
+    "k": 13,
+    "sat": true,
+    "witness": [
+      1,
+      2,
+      3,
+      14,
+      19,
+      30,
+      31,
+      32,
+      43,
+      48,
+      59,
+      60,
+      61
+    ],
+    "supportCount": 29180,
+    "clauseCount": 30394,
+    "cnfHash": "sha256:cedcaef075f711e1fa0567e6c205a1a795a87f93d6941d22330105e68fa27767",
+    "solver": "PySAT Glucose4",
+    "seconds": 5.911827600000834
+  },
+  "supportCompilerAgreement": {
+    "gapSpeciesHash": "sha256:7358e7137a036c1d110cecaa098360c1d5cca271acfd61eac3c8f9025e45b86f",
+    "orderedPairHash": "sha256:7358e7137a036c1d110cecaa098360c1d5cca271acfd61eac3c8f9025e45b86f",
+    "supportCount": 85274,
+    "equal": true
+  },
+  "independentCpSat": {
+    "n": 60,
+    "status": "OPTIMAL",
+    "maximum": 12,
+    "witness": [
+      1,
+      6,
+      9,
+      11,
+      23,
+      28,
+      46,
+      49,
+      51,
+      54,
+      56,
+      59
+    ],
+    "solver": "OR-Tools CP-SAT",
+    "seconds": 45.21187600000121
+  },
+  "directWitnessVerifier": {
+    "valid": true,
+    "violation": null
+  },
+  "evidenceHash": "sha256:16a1d78043fadc9ce2538ce3d158429b142f44ff8462369b9b1313ab5e51c2e3"
+}

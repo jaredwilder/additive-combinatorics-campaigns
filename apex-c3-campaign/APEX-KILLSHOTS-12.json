@@ -1,0 +1,19 @@
+{
+  "schema": "oracle.apex.killshots.v1",
+  "contractHash": "sha256:cf51f8a7ada393c80e0389c334fe694d100b6a413f09face549394129d276b13",
+  "targets": [
+    "APX-001",
+    "APX-002",
+    "APX-007",
+    "APX-013",
+    "APX-019",
+    "APX-025",
+    "APX-028",
+    "APX-031",
+    "APX-037",
+    "APX-039",
+    "APX-043",
+    "APX-048"
+  ],
+  "killshotHash": "sha256:f267332a83eae51a8955f3c3da0c6e1c6d9a1b74f34e6b7491f70d9a9681d428"
+}

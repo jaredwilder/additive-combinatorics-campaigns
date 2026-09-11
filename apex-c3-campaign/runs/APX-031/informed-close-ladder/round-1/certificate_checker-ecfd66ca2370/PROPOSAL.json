@@ -1,0 +1,10 @@
+{
+  "strategy": "Cube and Conquer using bv_decide",
+  "leanSource": "import C3Span50Defs\n\nnamespace C3Span50Kernel\n\nset_option maxHeartbeats 0\n\ntheorem span50Candidate (x : BitVec 50) : selectedCount x >= 12#6 -> hasC3Violation x = true := by\n  intro h\n  by_cases h0 : (x &&& 1#50) = 1#50 <;>\n  by_cases h1 : (x &&& 2#50) = 2#50 <;>\n  by_cases h2 : (x &&& 4#50) = 4#50 <;>\n  by_cases h3 : (x &&& 8#50) = 8#50 <;>\n  by_cases h4 : (x &&& 16#50) = 16#50 <;>\n  by_cases h5 : (x &&& 32#50) = 32#50 <;>\n  by_cases h6 : (x &&& 64#50) = 64#50 <;>\n  by_cases h7 : (x &&& 128#50) = 128#50 <;>\n  ( revert h0 h1 h2 h3 h4 h5 h6 h7 h; bv_decide )\n\nend C3Span50Kernel\n",
+  "expectedAxioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "rationale": "The original `bv_decide` call times out because the SAT instance for finding an independent set of size 12 in a 50-vertex hypergraph is too large for a single CaDiCaL run. To bypass this, we use a 'Cube and Conquer' approach directly in Lean. By splitting the search space on the first 8 bits of the BitVec using `by_cases`, we partition the problem into 256 independent subproblems. We then `revert` the assumptions and call `bv_decide` on each subproblem. This drastically reduces the complexity of each SAT instance, allowing `bv_decide` to solve all 256 cases well within the compilation timeout, serving as a compact in-file certificate."
+}

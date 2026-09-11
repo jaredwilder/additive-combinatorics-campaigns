@@ -1,0 +1,25 @@
+{
+  "schema": "oracle.blade-championship.execution-audit.v1",
+  "incident": "A cancelled first process and its rerun overlapped, producing a contract-hash mismatch between the summary and verification receipts.",
+  "disposition": "No overlapping process remained. A third isolated run was executed from the same frozen code and sealed portfolios; its internally consistent receipts are the sole authority.",
+  "supersededAttempts": [
+    {
+      "contractHash": "sha256:ef4c93c2b47e75116d4defa60f748d39ceaa06a0ceca50a509826ab18197db66",
+      "reason": "cancelled process later completed and overwrote shared state"
+    },
+    {
+      "contractHash": "sha256:3e15f5eb8207934a65ea7152b6ca26d9dc3c8a3cab1eaa09847f33c98bc5f422",
+      "reason": "overlapped receipt set; summary and verification contract hashes disagreed"
+    }
+  ],
+  "authoritativeAttempt": {
+    "contractHash": "sha256:44885021f9ffef2ea95b4770c389c41f791384d638824f746b757e00bc56e89a",
+    "verificationHash": "sha256:1c56914d73083a090ffaea7250a0203c3f66414d660fbf26600b84024b88da97",
+    "summaryHash": "sha256:469e6c9638c52f8f885b1e1bc18e9c1e7179e931a6f87122982ce6fd171a5087",
+    "contractHashesMatch": true,
+    "activeOverlappingProcessesAtLaunch": 0,
+    "externalCalls": 0,
+    "externalCostUsd": 0.0
+  }
+}
+

@@ -1,0 +1,27 @@
+{
+  "schema": "oracle.blade-championship.contract.v1",
+  "mode": "BANKED_BLADES_ONLY_ZERO_DOLLAR",
+  "frozenAt": "2026-07-30T00:49:33.074967+00:00",
+  "externalCallsAuthorized": 0,
+  "bladeFileHashes": {
+    "geometric-carry-automaton": "sha256:e308ea217a075213d9ace9212c6a014452ecbf773125523c9e3d64759d12b53c",
+    "digit-carry-language-compiler": "sha256:579ac8d4270b5452308a01fb491e75df7079a3adc0ed743586434bcb426b9961",
+    "gap-birth-cnf-compiler": "sha256:92b103a11fec9c166ea4c7dd96efa18eec4f05b17d988fff9ce92d7020d07690",
+    "parameter-cell-compiler": "sha256:ab90d719919be3155d1821c55c7f7500a857cf9ce74929c89f10758090d5f608",
+    "coefficient-subset-gluing-theorem": "sha256:c2c23874dbe2676d78b8b24688f11e891c9bb4d624280bbd7f16ec27eaf2bff6"
+  },
+  "requiredPerBlade": [
+    "new theorem",
+    "blind transfer",
+    "exact rejection boundary",
+    "compressed human-readable explanation"
+  ],
+  "leanTrack": "attempt kernel closure of the span-50 boundary; exact wall is an admissible negative result only after a real proof-producing attempt",
+  "antiLeakage": [
+    "portfolios sealed before target execution",
+    "blade bytes immutable",
+    "no post-selection parameter tuning",
+    "negative results retained"
+  ],
+  "contractHash": "sha256:44885021f9ffef2ea95b4770c389c41f791384d638824f746b757e00bc56e89a"
+}

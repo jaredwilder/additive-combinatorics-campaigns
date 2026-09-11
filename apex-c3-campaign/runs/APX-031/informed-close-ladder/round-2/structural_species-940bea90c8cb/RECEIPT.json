@@ -1,0 +1,41 @@
+{
+  "round": 2,
+  "strategy": "structural_species",
+  "model": "google/gemini-3.1-pro-preview",
+  "status": "COMPILE_FAILED",
+  "source": "oracle/math/EG411Formal/C3Span50CandidateR2_structural_species.lean",
+  "sourceHash": "sha256:de120e14509eea413c8f11b89e8200e518b5eadbedfa683546af669ec7f95aa6",
+  "test": {
+    "status": "COMPILE_FAILED",
+    "exitCode": 1,
+    "stdout": "C3Span50CandidateR2_structural_species.lean:1:0: error: unknown module prefix 'C3Span50Defs'\n\nNo directory 'C3Span50Defs' or file 'C3Span50Defs.olean' in the search path entries:\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean\nC:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal\\.lake\\build\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\nc:\\Users\\jared\\.elan\\toolchains\\leanprover--lean4---v4.29.1\\lib\\lean\n",
+    "stderr": "",
+    "axiomOutput": []
+  },
+  "usage": {
+    "prompt_tokens": 2167,
+    "completion_tokens": 2408,
+    "total_tokens": 4575,
+    "cost": 0.03323,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.03323,
+      "upstream_inference_prompt_cost": 0.004334,
+      "upstream_inference_completions_cost": 0.028896
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2223,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "costUsd": 0.03323,
+  "error": null,
+  "completedAt": "2026-07-30T01:28:44.500564+00:00"
+}
