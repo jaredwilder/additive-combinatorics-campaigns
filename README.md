@@ -1,15 +1,30 @@
 # Additive combinatorics: exact finite results and encoding theorems
 
-A collection of exact results in C3/C5-free sets, zero-sum constructions, sparse additive encodings, and related extremal problems. Highlights include a **minimum span 60 theorem for 13-element C3-free sets**, a complete classification through span 63, an **eight-element C5-free minimum span of 25**, a base-7 construction with exponent `log_7(3) > 1/2`, and a Lean theorem backed by a **447,254-addition LRAT proof**.
+A collection of exact results in C3/C5-free sets, sum-product structure, zero-sum constructions, sparse additive encodings, and related extremal problems. Highlights include a **minimum span 60 theorem for 13-element C3-free sets**, a complete classification through span 63, an **eight-element C5-free minimum span of 25**, a base-7 construction with exponent `log_7(3) > 1/2`, an exact sumset theorem for the multiplicative box `{2^i3^j}`, and a Lean theorem backed by a **447,254-addition LRAT proof**.
 
 Author: Jared Wilder. First public timestamp: 2026-09-10. Expanded 2026-09-11.
+
+## Erdős #52 — multiplicative box with almost-maximal additive growth
+
+For
+
+`A_N={2^i3^j:0<=i,j<N}`,
+
+the exact valuation-decoding argument proves
+
+`|A_N+A_N| >= C(N,2)^2`
+
+and
+
+`|A_NA_N|=(2N-1)^2`.
+
+Thus this family has essentially minimal multiplicative growth but essentially maximal additive growth. The proof is in [`ERDOS52-MULTIPLICATIVE-BOX-SUMSET.md`](ERDOS52-MULTIPLICATIVE-BOX-SUMSET.md).
 
 ## C3-free sets
 
 Historical directory: `apex-c3-campaign/`.
 
-- **The first 13-element C3-free set has minimum span exactly 60.** One witness is
-  `[1, 2, 3, 14, 19, 30, 31, 32, 43, 48, 59, 60, 61]`.
+- **The first 13-element C3-free set has minimum span exactly 60.** One witness is `[1, 2, 3, 14, 19, 30, 31, 32, 43, 48, 59, 60, 61]`.
 - **All 13-element sets of span at most 63 are classified:** exactly 6 sets in 4 orbits, with counts by span `{60: 1, 61: 0, 62: 1, 63: 4}`.
 - **Every 12 points in `[0,49]` contain a C3-support.** This is Lean-checked and backed by an LRAT proof with **447,254 additions across 33 semantic segments**.
 
@@ -24,12 +39,10 @@ Historical directory: `blade-championship/`; Lean artifacts are under `formal/`.
 1. **Subset gluing.** If an integer zero-sum coefficient vector `c` has no proper zero-sum subset and `A` is `c`-free with span `L`, then `A ∪ (D+A)` is `c`-free for every `D > L * Σ|c_i|`. Iteration gives a doubling construction. Demonstrated at `c=[1,1,1,-3]`.
 2. **Digit-carry construction.** For every `m`, the base-7 integers using only digits `{0,1,2}` form a pairwise-distinct `[1,-3,2]`-free set of size `3^m` below `7^m`, giving exponent **`log_7(3)=0.5646>1/2`**.
 3. **C5-free minimum span.** The minimum span of an eight-element C5-free integer set is **exactly 25**.
-4. **Geometric carry identity.** For nonzero `a,b` and `B>=2`, distinct powers satisfy
-   `aB^u-bB^x+bB^y-aB^v=0` exactly when `a(B^u-B^v)=b(B^x-B^y)`; after gcd reduction this becomes `B^u-B^v=b_0 t` and `B^x-B^y=a_0 t` for a nonzero integer `t`.
+4. **Geometric carry identity.** For nonzero `a,b` and `B>=2`, distinct powers satisfy `aB^u-bB^x+bB^y-aB^v=0` exactly when `a(B^u-B^v)=b(B^x-B^y)`; after gcd reduction this becomes `B^u-B^v=b_0 t` and `B^x-B^y=a_0 t` for a nonzero integer `t`.
 5. **Parameter-cell decomposition.** For `[a,-b,c,b-c-a]` on a fixed finite domain, every forbidden support lies on a line `b(x4-x2)+c(x3-x4)=a(x4-x1)`, so the `(b,c)`-plane is partitioned into finitely many support-hypergraph chambers.
 
-Also included: `formal/BvSmoke.lean` and `formal/C3Span50Kernel.lean`, the latter containing
-`span50 (x : BitVec 50) : selectedCount x >= 12 -> hasC3Violation x = true`.
+Also included: `formal/BvSmoke.lean` and `formal/C3Span50Kernel.lean`, the latter containing `span50 (x : BitVec 50) : selectedCount x >= 12 -> hasC3Violation x = true`.
 
 ## Carry-free and sparse additive encoding
 
