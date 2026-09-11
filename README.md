@@ -1,9 +1,8 @@
 # additive-combinatorics-campaigns
 
-Three deterministic campaigns on zero-sum and C3-free integer sets, including a Lean-kernel-checked
-theorem backed by a 447,254-addition LRAT proof.
+Deterministic campaigns on zero-sum, C3-free, sparse additive encoding and related extremal problems, including a Lean-kernel-checked theorem backed by a 447,254-addition LRAT proof.
 
-Author: Jared Wilder. First public timestamp: 2026-09-10. Campaigns dated 2026-07-29.
+Author: Jared Wilder. First public timestamp: 2026-09-10. Release-day expansion: 2026-09-11.
 
 ## APEX: C3-free sets
 
@@ -50,6 +49,19 @@ as decisive attacks.
 
 Also here: `formal/BvSmoke.lean` and `formal/C3Span50Kernel.lean`, the latter carrying
 `span50 (x : BitVec 50) : selectedCount x >= 12 -> hasC3Violation x = true`.
+
+## Signed sparse exact encodings
+
+`signed-sparse-encodings/`
+
+The release-day estate sweep recovered a four-result theorem patch that had not been surfaced in this repository:
+
+- **SGN-04:** a shifted `B_s` construction exactly encodes every ternary signed vector of support at most `s`;
+- **SGN-05:** for fixed `s`, the optimal largest positive weight for exact ternary signed sparse encoding is `Theta_s(m^s)`;
+- **SGN-06:** in particular, support-at-most-three ternary signed encoding has optimal scale `Theta(m^3)`;
+- **SGN-07:** for coefficients in `[-A,A]` and support at most `s`, a `B_{As}` construction gives the exact-encoding upper bound `O_{A,s}(m^(As))`.
+
+These results use classical `B_s` inputs. Historical novelty of the exact formulations has **not** been checked, and the stronger `Theta_{A,s}(m^s)` claim remains open for general `A>=2`.
 
 ## Erdos 564 expedition
 
