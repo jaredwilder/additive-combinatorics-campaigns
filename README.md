@@ -50,6 +50,23 @@ as decisive attacks.
 Also here: `formal/BvSmoke.lean` and `formal/C3Span50Kernel.lean`, the latter carrying
 `span50 (x : BitVec 50) : selectedCount x >= 12 -> hasC3Violation x = true`.
 
+## Carry-free and sparse additive encoding theorem bank
+
+`carry-free-encoding/`
+
+The release-day estate sweep extracted the **system-independent mathematics** from a substantially larger carry-free research bundle while leaving verifier/authentication/worker/deployment architecture behind the IP firewall. The public mathematical ledger includes:
+
+- the sharp no-carry threshold `B>A` for bounded residues and sharp full-cube threshold `B>2A`;
+- complete generation of the positional integer kernel by adjacent carry vectors;
+- sharp relation-localization and integer-polynomial evaluation thresholds;
+- exact full-box output-span lower bounds, optimality and rigidity of balanced positional weights, and heterogeneous mixed-radix extremality;
+- sparse moment uniqueness and carry-free moment packing;
+- finite-field `2s`-syndrome injectivity, with the field-valued `2s` lower bound's scope correction preserved;
+- binary sparse subset-sum lower bounds and `Theta_s(m^s)` optimal encoding scale via classical `B_s` inputs;
+- signed two-sparse counting, shifted-Sidon encoding, and optimal `Theta(m^2)` scale.
+
+Most of these are classical, elementary, or close to classical numeration/Sidon/sparse-interpolation mathematics. Historical novelty is not claimed merely because the estate rediscovered or sharpened a formulation.
+
 ## Signed sparse exact encodings
 
 `signed-sparse-encodings/`
