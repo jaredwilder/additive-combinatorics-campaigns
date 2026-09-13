@@ -22,6 +22,10 @@ Thus this family has essentially minimal multiplicative growth but essentially m
 
 ## C3-free sets
 
+The focused [C_k sequence repository](https://github.com/jaredwilder/ck-sequences)
+now indexes this proof package alongside its exact-value tables. The original
+campaign files below remain the archival source.
+
 Historical directory: `apex-c3-campaign/`.
 
 - **The first 13-element C3-free set has minimum span exactly 60.** One witness is `[1, 2, 3, 14, 19, 30, 31, 32, 43, 48, 59, 60, 61]`.
