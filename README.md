@@ -1,8 +1,8 @@
 # Additive combinatorics: exact finite results and encoding theorems
 
-A collection of exact results in C3/C5-free sets, sum-product structure, zero-sum constructions, sparse additive encodings, and related extremal problems. Highlights include a **minimum span 60 theorem for 13-element C3-free sets**, a complete classification through span 63, an **eight-element C5-free minimum span of 25**, a base-7 construction with exponent `log_7(3) > 1/2`, an exact sumset theorem for the multiplicative box `{2^i3^j}`, and a Lean theorem backed by a **447,254-addition LRAT proof**.
+A collection of exact results in C3/C5-free sets, sum-product structure, zero-sum constructions, finite carry automata, parameter-chamber theory, sparse additive encodings, and related extremal problems. Highlights include a **minimum span 60 theorem for 13-element C3-free sets**, a complete classification through span 63, an **eight-element C5-free minimum span of 25**, a base-7 construction with exponent `log_7(3) > 1/2`, exact all-exponent carry-automaton results, a sharp antisymmetric coefficient-chamber theorem, an exact sumset theorem for the multiplicative box `{2^i3^j}`, and a Lean theorem backed by a **447,254-addition LRAT proof**.
 
-Author: Jared Wilder. First public timestamp: 2026-09-10. Expanded 2026-09-11.
+Author: Jared Wilder. First public timestamp: 2026-09-10. Expanded 2026-09-11; Weird-Round status correction 2026-09-14.
 
 ## Erdős #52 — multiplicative box with almost-maximal additive growth
 
@@ -47,6 +47,22 @@ Historical directory: `blade-championship/`; Lean artifacts are under `formal/`.
 5. **Parameter-cell decomposition.** For `[a,-b,c,b-c-a]` on a fixed finite domain, every forbidden support lies on a line `b(x4-x2)+c(x3-x4)=a(x4-x1)`, so the `(b,c)`-plane is partitioned into finitely many support-hypergraph chambers.
 
 Also included: `formal/BvSmoke.lean` and `formal/C3Span50Kernel.lean`, the latter containing `span50 (x : BitVec 50) : selectedCount x >= 12 -> hasC3Violation x = true`.
+
+## Later Weird-Round completions — status correction
+
+Some files under `apex-c3-campaign/research-targets/` are historical pre-execution specifications and still say `UNPROVED_CHECKABLE_TARGET`. They are **not current status** for the later completed results.
+
+The compact correction is [`apex-c3-campaign/WEIRD-ROUND-COMPLETED-RESULTS.md`](apex-c3-campaign/WEIRD-ROUND-COMPLETED-RESULTS.md). In particular, the later theorem state includes:
+
+- an **exact finite carry automaton** deciding the fixed-coefficient geometric-power relation at all exponents, rather than on a finite exponent prefix;
+- exact Pascal-order least-base decisions for each supplied order, with an atlas through `r=12` and explicit sub-threshold obstructions;
+- exact all-word-length digit/carry decisions and base-`3..12` optimized fixed alphabets for C3 and joint C2–C3 avoidance;
+- a fixed automatic C2/C3-avoiding construction strictly denser than the earlier `10*` baseline inside the declared fixed-DFA class;
+- for `[1,-b,b,-1]`, the exact difference-ratio normal form `e=b*d` and the sharp all-`N` theorem that forbidden support on `[N]` is empty **iff `b>=N`**, with `b=N-1` sharply active via `(N,3,2,1)`;
+- the exact `N=4` chamber inversion `3,4,3,4,4,4` for `b=1..6`;
+- a zero-second-inference replay of the parameter-cell compiler on the held-out affine family `[2,-b,b,-2]` at `N=13,14`.
+
+These are theorem/status corrections, not blanket novelty claims. The historical target files remain unchanged as provenance snapshots.
 
 ## Carry-free and sparse additive encoding
 
