@@ -1,105 +1,187 @@
 # Additive combinatorics: exact finite results and encoding theorems
 
-A collection of exact results in C3/C5-free sets, sum-product structure, zero-sum constructions, finite carry automata, parameter-chamber theory, sparse additive encodings, and related extremal problems. Highlights include a **minimum span 60 theorem for 13-element C3-free sets**, a complete classification through span 63, an **eight-element C5-free minimum span of 25**, a base-7 construction with exponent `log_7(3) > 1/2`, exact all-exponent carry-automaton results, a sharp antisymmetric coefficient-chamber theorem, an exact sumset theorem for the multiplicative box `{2^i3^j}`, and a Lean theorem backed by a **447,254-addition LRAT proof**.
+This repository collects exact results in additive combinatorics, including progression-free constructions, finite extremal classifications, carry-free encodings, sparse signed representations, and sum-product structure.
 
-Author: Jared Wilder. First public timestamp: 2026-09-10. Expanded 2026-09-11; Weird-Round status correction 2026-09-14.
+## Main results
 
-## Erdős #52 — multiplicative box with almost-maximal additive growth
+| Topic | Result |
+|---|---|
+| Erdős #52 | for `A_N={2^i3^j:0<=i,j<N}`, `|A_N+A_N| >= C(N,2)^2` while `|A_NA_N|=(2N-1)^2` |
+| `C3`-free sets | the minimum span of a 13-element set is **60**; all examples through span 63 are classified |
+| `C5`-free sets | the minimum span of an 8-element set is **25** |
+| finite formal certificate | every 12 points in `[0,49]` contain a `C3` support, backed by Lean and a **447,254-addition LRAT proof** |
+| digit construction | base-7 digits `{0,1,2}` give a `[1,-3,2]`-free family of size `3^m` below `7^m`, with exponent `log_7(3)>1/2` |
+| positional encoding | sharp no-carry and injectivity thresholds, plus optimal full-box positional weights |
+| sparse signed encoding | exact constructions with polynomial weight scale, including `Theta(m^2)` for signed two-sparse encoding and `Theta(m^3)` at ternary support three |
+
+The sections below state the mathematics and then point to the original source directories and verification artifacts.
+
+## Erdős #52 — multiplicative boxes with large sumsets
 
 For
 
-`A_N={2^i3^j:0<=i,j<N}`,
+\[
+A_N=\{2^i3^j:0\le i,j<N\},
+\]
 
-the exact valuation-decoding argument proves
+valuation decoding gives
 
-`|A_N+A_N| >= C(N,2)^2`
+\[
+\boxed{|A_N+A_N|\ge \binom N2^2}
+\]
 
 and
 
-`|A_NA_N|=(2N-1)^2`.
+\[
+\boxed{|A_NA_N|=(2N-1)^2}.
+\]
 
-Thus this family has essentially minimal multiplicative growth but essentially maximal additive growth. The proof is in [`ERDOS52-MULTIPLICATIVE-BOX-SUMSET.md`](ERDOS52-MULTIPLICATIVE-BOX-SUMSET.md).
+Thus the same family has very small multiplicative growth and nearly quadratic additive growth. The proof is in [`ERDOS52-MULTIPLICATIVE-BOX-SUMSET.md`](ERDOS52-MULTIPLICATIVE-BOX-SUMSET.md).
 
-## C3-free sets
+## Exact `C3`-free structure
 
-The focused [C_k sequence repository](https://github.com/jaredwilder/ck-sequences)
-now indexes this proof package alongside its exact-value tables. The original
-campaign files below remain the archival source.
+A 13-element `C3`-free integer set has minimum span exactly
 
-Historical directory: `apex-c3-campaign/`.
+\[
+\boxed{60}.
+\]
 
-- **The first 13-element C3-free set has minimum span exactly 60.** One witness is `[1, 2, 3, 14, 19, 30, 31, 32, 43, 48, 59, 60, 61]`.
-- **All 13-element sets of span at most 63 are classified:** exactly 6 sets in 4 orbits, with counts by span `{60: 1, 61: 0, 62: 1, 63: 4}`.
-- **Every 12 points in `[0,49]` contain a C3-support.** This is Lean-checked and backed by an LRAT proof with **447,254 additions across 33 semantic segments**.
+One extremal example is
 
-The complete LRAT proof is shipped as 270 chunks under `runs/APX-031/chunked-lrat/`.
+```text
+[1, 2, 3, 14, 19, 30, 31, 32, 43, 48, 59, 60, 61].
+```
 
-Three alternative CNF encodings exceeded GitHub's 100 MB per-file limit (142.8 MB, 123.1 MB and 107.7 MB). Their SHA-256 hashes are recorded in `runs/APX-031/encoding-sweep/OMITTED-LARGE-FILES.json`; the accepted proof itself is present in full.
+All 13-element examples of span at most 63 are classified: there are exactly six sets in four symmetry orbits, with counts by span
 
-## Five zero-sum and carry theorems
+```text
+60 : 1
+61 : 0
+62 : 1
+63 : 4
+```
 
-Historical directory: `blade-championship/`; Lean artifacts are under `formal/`.
+A second exact statement says that every 12 selected points in `[0,49]` contain a forbidden `C3` support. The formal certificate is a Lean theorem backed by a shipped LRAT proof containing **447,254 additions across 33 semantic segments**. The complete LRAT proof is stored in 270 chunks under `runs/APX-031/chunked-lrat/`.
 
-1. **Subset gluing.** If an integer zero-sum coefficient vector `c` has no proper zero-sum subset and `A` is `c`-free with span `L`, then `A ∪ (D+A)` is `c`-free for every `D > L * Σ|c_i|`. Iteration gives a doubling construction. Demonstrated at `c=[1,1,1,-3]`.
-2. **Digit-carry construction.** For every `m`, the base-7 integers using only digits `{0,1,2}` form a pairwise-distinct `[1,-3,2]`-free set of size `3^m` below `7^m`, giving exponent **`log_7(3)=0.5646>1/2`**.
-3. **C5-free minimum span.** The minimum span of an eight-element C5-free integer set is **exactly 25**.
-4. **Geometric carry identity.** For nonzero `a,b` and `B>=2`, distinct powers satisfy `aB^u-bB^x+bB^y-aB^v=0` exactly when `a(B^u-B^v)=b(B^x-B^y)`; after gcd reduction this becomes `B^u-B^v=b_0 t` and `B^x-B^y=a_0 t` for a nonzero integer `t`.
-5. **Parameter-cell decomposition.** For `[a,-b,c,b-c-a]` on a fixed finite domain, every forbidden support lies on a line `b(x4-x2)+c(x3-x4)=a(x4-x1)`, so the `(b,c)`-plane is partitioned into finitely many support-hypergraph chambers.
+The focused finite-sequence tables are indexed separately in [`ck-sequences`](https://github.com/jaredwilder/ck-sequences).
 
-Also included: `formal/BvSmoke.lean` and `formal/C3Span50Kernel.lean`, the latter containing `span50 (x : BitVec 50) : selectedCount x >= 12 -> hasC3Violation x = true`.
+## Zero-sum and carry theorems
 
-## Later Weird-Round completions — status correction
+### Subset gluing
 
-Some files under `apex-c3-campaign/research-targets/` are historical pre-execution specifications and still say `UNPROVED_CHECKABLE_TARGET`. They are **not current status** for the later completed results.
+Let `c` be an integer zero-sum coefficient vector with no proper zero-sum subset. If `A` is `c`-free with span `L`, then
 
-The compact correction is [`apex-c3-campaign/WEIRD-ROUND-COMPLETED-RESULTS.md`](apex-c3-campaign/WEIRD-ROUND-COMPLETED-RESULTS.md). In particular, the later theorem state includes:
+\[
+A\cup(D+A)
+\]
 
-- an **exact finite carry automaton** deciding the fixed-coefficient geometric-power relation at all exponents, rather than on a finite exponent prefix;
-- exact Pascal-order least-base decisions for each supplied order, with an atlas through `r=12` and explicit sub-threshold obstructions;
-- exact all-word-length digit/carry decisions and base-`3..12` optimized fixed alphabets for C3 and joint C2–C3 avoidance;
-- a fixed automatic C2/C3-avoiding construction strictly denser than the earlier `10*` baseline inside the declared fixed-DFA class;
-- for `[1,-b,b,-1]`, the exact difference-ratio normal form `e=b*d` and the sharp all-`N` theorem that forbidden support on `[N]` is empty **iff `b>=N`**, with `b=N-1` sharply active via `(N,3,2,1)`;
-- the exact `N=4` chamber inversion `3,4,3,4,4,4` for `b=1..6`;
-- a zero-second-inference replay of the parameter-cell compiler on the held-out affine family `[2,-b,b,-2]` at `N=13,14`.
+is again `c`-free whenever
 
-These are theorem/status corrections, not blanket novelty claims. The historical target files remain unchanged as provenance snapshots.
+\[
+D>L\sum_i |c_i|.
+\]
 
-## Carry-free and sparse additive encoding
+Iterating gives a doubling construction. The package includes the case `c=[1,1,1,-3]`.
 
-Directory: `carry-free-encoding/`.
+### Base-7 digit construction
 
-The public release extracts the pure mathematics from a larger implementation bundle. It includes:
+For every `m`, the integers below `7^m` whose base-7 digits lie in `{0,1,2}` form a pairwise-distinct `[1,-3,2]`-free set of size `3^m`. Hence the construction has exponent
 
-- sharp no-carry threshold `B>A` for bounded residues and sharp full-cube threshold `B>2A`;
+\[
+\boxed{\log_7 3=0.5646\ldots>1/2}.
+\]
+
+### Exact `C5` minimum span
+
+The minimum span of an eight-element `C5`-free integer set is
+
+\[
+\boxed{25}.
+\]
+
+### Geometric carry identity
+
+For nonzero integers `a,b` and `B>=2`, distinct powers satisfy
+
+\[
+aB^u-bB^x+bB^y-aB^v=0
+\]
+
+exactly when
+
+\[
+a(B^u-B^v)=b(B^x-B^y).
+\]
+
+After dividing by `gcd(a,b)`, this becomes an exact common-parameter description of the two power differences.
+
+### Parameter chambers
+
+For coefficients `[a,-b,c,b-c-a]` on a fixed finite domain, every forbidden support lies on a line
+
+\[
+b(x_4-x_2)+c(x_3-x_4)=a(x_4-x_1).
+\]
+
+Therefore the `(b,c)` plane is partitioned into finitely many chambers on which the forbidden-support hypergraph is constant.
+
+## Additional exact carry and parameter results
+
+Later computations completed several targets that remain labeled as provisional in older source snapshots. The current mathematical results include:
+
+- a finite carry automaton deciding the fixed-coefficient geometric-power relation for **all exponents**;
+- exact least-base decisions for the supplied Pascal-order relations, with an atlas through `r=12` and explicit sub-threshold obstructions;
+- all-word-length digit/carry decisions and optimized fixed alphabets for `C3` and joint `C2`–`C3` avoidance over bases `3..12`;
+- a fixed automatic `C2/C3`-avoiding construction denser than the earlier baseline inside the declared fixed-DFA class;
+- for `[1,-b,b,-1]`, the exact normal form `e=b*d` and the sharp theorem that forbidden support on `[N]` is empty **iff `b>=N`**;
+- the exact `N=4` chamber sequence `3,4,3,4,4,4` for `b=1..6`;
+- a held-out replay of the parameter-cell compiler on `[2,-b,b,-2]` at `N=13,14`.
+
+Older target files are retained as dated research records; they do not override the completed statements above.
+
+## Carry-free positional encoding
+
+The pure encoding results include:
+
+- sharp zero-detection threshold `B>A` for bounded residues;
+- sharp injectivity threshold `B>2A` on the full bounded cube;
 - generation of the positional integer kernel by adjacent carry vectors;
-- relation-localization and integer-polynomial evaluation thresholds;
-- exact full-box output-span lower bounds, optimality and rigidity of balanced positional weights, and mixed-radix extremality;
+- exact full-box output-span lower bounds;
+- optimality and rigidity of balanced positional weights;
+- mixed-radix extremality;
 - sparse-moment uniqueness and carry-free moment packing;
 - finite-field `2s`-syndrome injectivity;
-- binary sparse subset-sum lower bounds and `Theta_s(m^s)` optimal encoding scale using classical `B_s` inputs;
-- signed two-sparse counting, shifted-Sidon encoding, and optimal `Theta(m^2)` scale.
+- binary sparse subset-sum lower bounds and `Theta_s(m^s)` optimal scale using classical `B_s` constructions;
+- signed two-sparse exact encoding at optimal `Theta(m^2)` scale.
 
-Many of these statements are classical, elementary, or close to known numeration/Sidon/sparse-interpolation mathematics; historical novelty should therefore be checked result by result.
+A focused statement-and-proof presentation also appears in [`positional-encoding-thresholds`](https://github.com/jaredwilder/positional-encoding-thresholds).
 
-## Signed sparse exact encodings
+## Signed sparse encodings
 
-Directory: `signed-sparse-encodings/`.
+For ternary signed vectors and related bounded-coefficient families, the repository contains:
 
-Four additional results are included:
+- a shifted `B_s` construction that exactly encodes every ternary vector of support at most `s`;
+- optimal largest-weight scale `Theta_s(m^s)` for fixed ternary sparsity;
+- optimal `Theta(m^3)` scale for support at most three;
+- for coefficients in `[-A,A]` and support at most `s`, a `B_{As}` construction giving `O_{A,s}(m^{As})`.
 
-- **SGN-04:** a shifted `B_s` construction exactly encodes every ternary signed vector of support at most `s`;
-- **SGN-05:** for fixed `s`, the optimal largest positive weight for exact ternary signed sparse encoding is `Theta_s(m^s)`;
-- **SGN-06:** support-at-most-three ternary signed encoding has optimal scale `Theta(m^3)`;
-- **SGN-07:** for coefficients in `[-A,A]` and support at most `s`, a `B_{As}` construction gives the upper bound `O_{A,s}(m^(As))`.
+The stronger general `Theta_{A,s}(m^s)` statement for `A>=2` is not established by this package.
 
-These use classical `B_s` inputs. The stronger general `Theta_{A,s}(m^s)` statement for `A>=2` remains a separate open target.
+## Erdős #564 reduction
 
-## Erdős 564 reduction work
+A separate proof sequence studies the double-exponential lower-bound question for `R_3(n)`. Its current contribution is a reduction and a documented set of failed intermediate routes; it is not presented here as a solution of the parent problem.
 
-Directory: `erdos564-expedition/`.
+## Reproducibility and historical layout
 
-Seven proof-chain files study whether `R_3(n) > 2^(2^(cn))` for some `c>0`. The current mathematical output is a reduction recorded in the accepted proof-chain files, together with the failed intermediate routes needed to reproduce how that reduction was reached.
+Several directory names preserve the names of the original research runs. They are retained so hashes and historical references remain stable:
 
-## License
+- `apex-c3-campaign/` — `C3` finite search and LRAT material;
+- `blade-championship/` — zero-sum and carry theorem sources;
+- `carry-free-encoding/` — positional and sparse encoding results;
+- `signed-sparse-encodings/` — signed sparse constructions;
+- `erdos564-expedition/` — the #564 reduction record;
+- `formal/` and `runs/` — Lean, SAT/LRAT, witnesses, and receipts.
 
-Apache-2.0.
+These names are provenance. The mathematical statements above are the intended reading surface.
+
+Author: Jared Wilder. License: Apache-2.0.
